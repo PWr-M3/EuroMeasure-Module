@@ -2241,7 +2241,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 241.3 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2486761d-6715-4e29-a9bb-d5aae2207d95)
-    (property "Reference" "J?" (id 0) (at 241.935 101.6 0))
+    (property "Reference" "J3" (id 0) (at 241.935 101.6 0))
     (property "Value" "UART" (id 1) (at 241.935 104.14 0))
     (property "Footprint" "" (id 2) (at 241.3 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2545,7 +2545,7 @@
   (symbol (lib_id "power:GND") (at 248.92 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7d243bd9-5a2e-4326-8d2b-a5f1dfd1f8f3)
-    (property "Reference" "#PWR?" (id 0) (at 248.92 118.11 0)
+    (property "Reference" "#PWR0105" (id 0) (at 248.92 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 248.92 116.84 0))
@@ -2598,7 +2598,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Male") (at 241.3 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a131e4fd-2b6b-4ceb-827a-fe46605e4cbb)
-    (property "Reference" "J?" (id 0) (at 241.935 83.82 0))
+    (property "Reference" "J2" (id 0) (at 241.935 83.82 0))
     (property "Value" "I2C" (id 1) (at 241.935 86.36 0))
     (property "Footprint" "" (id 2) (at 241.3 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2630,7 +2630,7 @@
   (symbol (lib_id "Device:D") (at 97.79 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid acef170c-9dde-4b25-b979-ff4ef70a5cbb)
-    (property "Reference" "D?" (id 0) (at 97.79 58.42 0))
+    (property "Reference" "D2" (id 0) (at 97.79 58.42 0))
     (property "Value" "1n4148" (id 1) (at 97.79 60.96 0))
     (property "Footprint" "Diode_SMD:D_SOD-123" (id 2) (at 97.79 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2797,7 +2797,7 @@
   (symbol (lib_id "power:GND") (at 248.92 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c7143079-c7d7-419c-9261-2f446fb4d84f)
-    (property "Reference" "#PWR?" (id 0) (at 248.92 100.33 0)
+    (property "Reference" "#PWR0128" (id 0) (at 248.92 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 248.92 99.06 0))
@@ -2921,7 +2921,7 @@
   (symbol (lib_id "power:GND") (at 250.19 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e1d04403-db45-42b9-aeee-a12acba02ccf)
-    (property "Reference" "#PWR?" (id 0) (at 250.19 48.26 0)
+    (property "Reference" "#PWR0129" (id 0) (at 250.19 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 250.19 46.99 0))
@@ -3069,6 +3069,9 @@
     (path "/eee559f2-0b0f-4224-b03f-81ccb3629730"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
+    (path "/7d243bd9-5a2e-4326-8d2b-a5f1dfd1f8f3"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
     (path "/302a3ca2-8721-479b-b4eb-f005cb527499"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
@@ -3135,14 +3138,11 @@
     (path "/f7dc9e5d-9294-412e-a545-02bb045a92d0"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
-    (path "/7d243bd9-5a2e-4326-8d2b-a5f1dfd1f8f3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c7143079-c7d7-419c-9261-2f446fb4d84f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
     (path "/e1d04403-db45-42b9-aeee-a12acba02ccf"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/d92283e0-1a84-4854-b416-29c1c54c41f7"
       (reference "B1") (unit 1) (value "EuroBoard") (footprint "MEMS_Custom:EuroMeasure")
@@ -3175,7 +3175,7 @@
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/acef170c-9dde-4b25-b979-ff4ef70a5cbb"
-      (reference "D?") (unit 1) (value "1n4148") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D2") (unit 1) (value "1n4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/55ad175e-3839-4c69-a4d0-462ebdbf17e1"
       (reference "F1") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_1210_3225Metric")
@@ -3183,11 +3183,11 @@
     (path "/ae9aecda-f77e-44d0-9ae1-53e37da2b269"
       (reference "J1") (unit 1) (value "SPI") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/2486761d-6715-4e29-a9bb-d5aae2207d95"
-      (reference "J?") (unit 1) (value "UART") (footprint "")
-    )
     (path "/a131e4fd-2b6b-4ceb-827a-fe46605e4cbb"
-      (reference "J?") (unit 1) (value "I2C") (footprint "")
+      (reference "J2") (unit 1) (value "I2C") (footprint "")
+    )
+    (path "/2486761d-6715-4e29-a9bb-d5aae2207d95"
+      (reference "J3") (unit 1) (value "UART") (footprint "")
     )
     (path "/c2e8100f-910e-434c-951c-160188608971"
       (reference "L1") (unit 1) (value "L_Ferrite") (footprint "Inductor_SMD:L_0805_2012Metric")
