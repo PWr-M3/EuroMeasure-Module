@@ -56,6 +56,9 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|174945919|100165001|a985b7d3-c229-419e-af0f-af5cdc03e6a5|7091e9dd-6fb5-48bf-a62a-846ac9879d3c",
+        "courtyards_overlap|176022501|100165001|969296cd-3c28-4640-b36b-2ff4ee7fd763|7091e9dd-6fb5-48bf-a62a-846ac9879d3c",
+        "courtyards_overlap|178022501|100165001|2a8c1895-2c1a-415c-b772-897f17e80486|7091e9dd-6fb5-48bf-a62a-846ac9879d3c",
         "silk_over_copper|180362500|77552500|70f0b7a7-bf63-46cd-a1ad-f3be39f1c36a|d6fe1492-1cd8-438f-9d89-6e86d581626f",
         "silk_over_copper|180756250|77275000|ff106b4f-4314-4089-8f8a-f77c51974d21|d6fe1492-1cd8-438f-9d89-6e86d581626f",
         "silk_over_copper|183152500|69037500|a46aadcb-ada9-46eb-bef8-e9e1ab2ff672|a98c10b6-b3c2-4e0e-a11d-4f0a3b581cd3",
