@@ -2613,7 +2613,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c088e34e-300b-40ad-b18b-b0451ad82387)
   )
-  (label "PB6" (at 228.6 133.35 180)
+  (label "PC6" (at 228.6 133.35 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c0dff730-9f5f-4e55-a4cd-f66945a747dc)
   )
