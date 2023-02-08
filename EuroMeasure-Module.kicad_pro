@@ -149,7 +149,8 @@
         0.4,
         0.5,
         0.8,
-        1.0
+        1.0,
+        10.0
       ],
       "via_dimensions": [
         {
@@ -175,7 +176,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1917700|596900|9fbc6486-5559-4d06-98cd-7a71c382d9db|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -370,7 +373,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -384,7 +387,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EuroBoard.kicad_pro",
+    "filename": "EuroMeasure-Module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -432,7 +435,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -463,8 +466,16 @@
   },
   "sheets": [
     [
-      "c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd",
+      "9c84a828-ebcc-4f88-b5cc-11be4f5044ad",
       ""
+    ],
+    [
+      "86171786-951f-48d9-b75c-482a8f2a4cb9",
+      "EuroMeasure"
+    ],
+    [
+      "9786795a-c9a9-4bea-b5fb-16b376e57d70",
+      "Power supplies"
     ]
   ],
   "text_variables": {}
