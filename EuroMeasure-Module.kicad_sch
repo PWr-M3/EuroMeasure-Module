@@ -17,10 +17,6 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 8934173a-6bd4-4a5f-9bc2-ac0fd086972a)
   )
-  (text "PSU" (at 262.89 43.18 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid e32c36c8-5dc2-4bdd-b8fa-aae808bfe0b1)
-  )
 
   (sheet (at 254 19.05) (size 24.13 10.16) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
@@ -35,23 +31,6 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 254 36.83) (size 24.13 10.16) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9786795a-c9a9-4bea-b5fb-16b376e57d70)
-    (property "Sheetname" "Power supplies" (at 254 36.1184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 254 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad" (page "7"))
       )
     )
   )
