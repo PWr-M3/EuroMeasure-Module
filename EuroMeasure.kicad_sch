@@ -3029,7 +3029,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 016ac401-b234-499b-a981-3b09d024d333)
-    (property "Reference" "C22" (at 181.61 46.99 0)
+    (property "Reference" "C52" (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 181.61 49.53 0)
@@ -3044,9 +3044,9 @@
     (pin "1" (uuid 9a5a20d5-c9bd-42f8-9633-db38befcb29b))
     (pin "2" (uuid e44d5aa1-7383-4b34-9aef-b0d9ca3c5012))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C42") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C52") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3060,7 +3060,7 @@
   (symbol (lib_id "power:GND") (at 58.42 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05084350-4366-48f5-8c15-f4d3ca94da5c)
-    (property "Reference" "#PWR06909" (at 64.77 95.25 0)
+    (property "Reference" "#PWR0101" (at 64.77 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 95.2499 90)
@@ -3074,9 +3074,9 @@
     )
     (pin "1" (uuid 8a298459-e3a4-4255-b8e1-d1399b467396))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0966") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0101") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3090,7 +3090,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 87.63 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0f5f1e-8ca1-4ece-a836-cb386070436f)
-    (property "Reference" "TP1" (at 86.36 24.13 0)
+    (property "Reference" "TP15" (at 86.36 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V3" (at 86.36 21.59 0)
@@ -3104,9 +3104,9 @@
     )
     (pin "1" (uuid ae45a5c0-4a15-4eb3-9c13-4425f0053aeb))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP11") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP15") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3120,7 +3120,7 @@
   (symbol (lib_id "MEMS_Electromechanical:SW_Push_Tact_B3S-1000") (at 160.02 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10bbdfed-cebc-45fe-99e6-ae080959c8f4)
-    (property "Reference" "SW1" (at 161.29 48.895 90)
+    (property "Reference" "SW2" (at 161.29 48.895 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RST" (at 161.29 51.435 90)
@@ -3141,9 +3141,9 @@
     (pin "1" (uuid a7be2b1e-0d4b-481e-b409-ed8444bf3877))
     (pin "2" (uuid f7e3983e-b309-4ac9-8b87-59c53b42de70))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "SW1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "SW2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3157,7 +3157,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11748897-518b-4e63-9f58-24c519aa6562)
-    (property "Reference" "TP13" (at 67.31 147.32 90)
+    (property "Reference" "TP11" (at 67.31 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 67.31 142.24 90)
@@ -3171,9 +3171,9 @@
     )
     (pin "1" (uuid cae73425-198d-4b64-99f2-25675c97cc12))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP8") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP11") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3187,7 +3187,7 @@
   (symbol (lib_id "power:+3.3V") (at 96.52 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18e8cbe7-7833-4c36-af5d-7ad52dd3a43e)
-    (property "Reference" "#PWR06918" (at 96.52 31.75 0)
+    (property "Reference" "#PWR0110" (at 96.52 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 96.52 22.86 0)
@@ -3201,9 +3201,9 @@
     )
     (pin "1" (uuid ec180750-d6e1-41f8-9a2b-fbd02cb7fe33))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0975") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0110") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3217,7 +3217,7 @@
   (symbol (lib_id "power:GND") (at 63.5 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ddbf1a1-989b-4a2f-8823-5a8196c14cbe)
-    (property "Reference" "#PWR06910" (at 69.85 110.49 0)
+    (property "Reference" "#PWR0102" (at 69.85 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 110.4899 90)
@@ -3231,9 +3231,9 @@
     )
     (pin "1" (uuid 005d2bec-f2b1-43a6-b616-ac27605ba394))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0967") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0102") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3270,8 +3270,8 @@
     (pin "3" (uuid 6be4cc02-1bdd-4e47-a391-6a2f92c6ec43))
     (pin "4" (uuid 199ccd66-e231-423a-bf83-e3587ce0f13e))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "Y1") (unit 1)
         )
       )
@@ -3286,7 +3286,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25122625-eb80-429a-b437-11ed746af1ca)
-    (property "Reference" "R20" (at 64.77 175.26 90)
+    (property "Reference" "R36" (at 64.77 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 177.8 90)
@@ -3304,9 +3304,9 @@
     (pin "1" (uuid 8fa085f5-2e43-4a9e-a904-c85f4c63488e))
     (pin "2" (uuid 6e6ae8f6-42e5-47d3-a6e3-a19946c7079e))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "R31") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R36") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3320,7 +3320,7 @@
   (symbol (lib_id "power:+3.3V") (at 29.21 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2701844a-60ff-45e2-9877-dd0f77bdf4b3)
-    (property "Reference" "#PWR06901" (at 33.02 118.11 0)
+    (property "Reference" "#PWR093" (at 33.02 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 24.13 118.11 0)
@@ -3334,9 +3334,9 @@
     )
     (pin "1" (uuid e7a92328-bde2-443e-b867-a2e770a64d4a))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0958") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR093") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3350,7 +3350,7 @@
   (symbol (lib_id "MEMS_Protection:Polyfuse-500mA-1206L050/15YR") (at 29.21 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 285534d0-d8f3-4448-ae40-3fa6d78cb95f)
-    (property "Reference" "F2" (at 29.21 25.4 90)
+    (property "Reference" "F3" (at 29.21 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse 0.5A" (at 29.21 27.94 90)
@@ -3371,9 +3371,9 @@
     (pin "1" (uuid d9617cef-de2d-4b39-93cf-2f3e0d67db68))
     (pin "2" (uuid 81838f41-4a96-4f26-9772-35c22032c15d))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "F2") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "F3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3387,7 +3387,7 @@
   (symbol (lib_id "Device:C") (at 224.79 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bc24c7d-93ba-4fb5-b153-8cc92da1c6a9)
-    (property "Reference" "C1" (at 228.6 39.3699 0)
+    (property "Reference" "C53" (at 228.6 39.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 228.6 41.9099 0)
@@ -3402,9 +3402,9 @@
     (pin "1" (uuid 5fad9076-881e-4787-aef9-00c92ee1ca9a))
     (pin "2" (uuid 67a8f402-5e80-4ba6-a54a-d6c9563f6757))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C53") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3418,7 +3418,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ed469c4-9c9e-444d-b1d5-bbebca6b5235)
-    (property "Reference" "R21" (at 64.77 165.1 90)
+    (property "Reference" "R35" (at 64.77 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 167.64 90)
@@ -3436,9 +3436,9 @@
     (pin "1" (uuid 6e664a26-06db-47f7-a6be-d380b9040d62))
     (pin "2" (uuid 400f093e-09d2-4b8d-8240-608afeeff0b0))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "R26") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R35") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3452,7 +3452,7 @@
   (symbol (lib_id "power:GND") (at 58.42 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 378a9bce-8035-4dfc-8b24-d880842a0d53)
-    (property "Reference" "#PWR06908" (at 64.77 87.63 0)
+    (property "Reference" "#PWR0100" (at 64.77 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 87.6299 90)
@@ -3466,9 +3466,9 @@
     )
     (pin "1" (uuid 83b3e7ff-d100-4782-afad-b0703b9c32e7))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0965") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0100") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3482,7 +3482,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 140.97 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38ba8e2b-ad41-4e55-95e1-5b2b031eb2ac)
-    (property "Reference" "R9" (at 241.3 139.7 0)
+    (property "Reference" "R38" (at 241.3 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 241.3 142.24 0)
@@ -3497,9 +3497,9 @@
     (pin "1" (uuid 16a62561-1332-4333-a0cf-dd55b1805874))
     (pin "2" (uuid 2c4ce6ae-6913-4c10-84ac-3ec6b2d9db91))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "R10") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R38") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3513,7 +3513,7 @@
   (symbol (lib_id "power:+3.3V") (at 175.26 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bb6600f-181d-4df7-9ef3-7caaddceff51)
-    (property "Reference" "#PWR06925" (at 175.26 45.72 0)
+    (property "Reference" "#PWR0117" (at 175.26 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 175.26 36.83 0)
@@ -3527,9 +3527,9 @@
     )
     (pin "1" (uuid 1e16d9c5-65b0-4264-abed-9daf659c98fa))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0982") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0117") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3543,7 +3543,7 @@
   (symbol (lib_id "MEMS_IC:AZ1117IH-3.3TRG1-SOT223") (at 66.04 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42f0ec56-ce23-4d24-b8ad-3ef562cb0837)
-    (property "Reference" "U3" (at 66.04 24.13 0)
+    (property "Reference" "U10" (at 66.04 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3V3" (at 66.04 26.67 0)
@@ -3565,9 +3565,9 @@
     (pin "2" (uuid a796c06c-1ac1-41f0-b476-40d52b5be0c0))
     (pin "3" (uuid a59bab41-f780-4796-a211-e6077bcb76a8))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "U1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "U10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3581,7 +3581,7 @@
   (symbol (lib_id "Device:C_Small") (at 129.54 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47a242c2-4573-408d-9077-c986456345ed)
-    (property "Reference" "C18" (at 132.08 175.26 0)
+    (property "Reference" "C49" (at 132.08 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 132.08 177.7938 0)
@@ -3599,9 +3599,9 @@
     (pin "1" (uuid c623f174-419d-4ec5-b48b-f92164d039e3))
     (pin "2" (uuid 81f14bf2-5130-411e-a16f-0f108727ab1b))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C23") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C49") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3615,7 +3615,7 @@
   (symbol (lib_id "power:GND") (at 165.1 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a61e40d-a97c-4cd2-b6c1-5191eb04c036)
-    (property "Reference" "#PWR06924" (at 165.1 153.67 0)
+    (property "Reference" "#PWR0116" (at 165.1 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 147.32 0)
@@ -3629,9 +3629,9 @@
     )
     (pin "1" (uuid 03385900-bcd8-4be2-8a01-2e29d110745f))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0981") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0116") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3645,7 +3645,7 @@
   (symbol (lib_id "power:GND") (at 236.22 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c2240b7-f6d8-42ad-a0c8-7772e4b60d80)
-    (property "Reference" "#PWR06930" (at 236.22 160.02 0)
+    (property "Reference" "#PWR0122" (at 236.22 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 158.75 0)
@@ -3659,9 +3659,9 @@
     )
     (pin "1" (uuid 0820ab82-71e6-49cd-9637-bfe2d12bf7ba))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0987") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0122") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3675,7 +3675,7 @@
   (symbol (lib_id "power:GND") (at 160.02 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c73004b-2020-4280-ab0a-20105fde5f72)
-    (property "Reference" "#PWR06923" (at 160.02 62.23 0)
+    (property "Reference" "#PWR0115" (at 160.02 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 60.96 0)
@@ -3689,9 +3689,9 @@
     )
     (pin "1" (uuid 9c26dddb-714d-4495-9b54-f539c973a033))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0980") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0115") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3705,7 +3705,7 @@
   (symbol (lib_id "power:GND") (at 80.01 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ed2c8ae-1bbf-410c-8bb2-53ee74f5bb30)
-    (property "Reference" "#PWR06916" (at 80.01 49.53 0)
+    (property "Reference" "#PWR0108" (at 80.01 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 48.26 0)
@@ -3719,9 +3719,9 @@
     )
     (pin "1" (uuid 6c685c4c-4b37-42e0-a0e4-8c4eb8ba5aa8))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0973") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0108") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3735,7 +3735,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518ff594-9a75-42bc-bff1-d184cb94f219)
-    (property "Reference" "JP1" (at 50.8 187.96 0)
+    (property "Reference" "JP23" (at 50.8 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR3" (at 55.88 187.96 0)
@@ -3753,9 +3753,9 @@
     (pin "1" (uuid 184e1e78-104f-4beb-ba6c-6e61c8330f13))
     (pin "2" (uuid 3daacb0a-3877-45f3-bd97-6817115ee22a))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP2") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP23") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3769,7 +3769,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:D_1N4148WS-SOD323") (at 147.32 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531f9032-c386-4efb-8edc-54e94344e912)
-    (property "Reference" "D14" (at 147.32 38.1 0)
+    (property "Reference" "D9" (at 147.32 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 147.32 40.64 0)
@@ -3796,9 +3796,9 @@
     (pin "1" (uuid 100e5cad-eca3-4fdc-89fe-6929494ae199))
     (pin "2" (uuid 2ddb06ed-6bcc-4cb3-a499-3e4e2b1a1309))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "D10") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "D9") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3812,7 +3812,7 @@
   (symbol (lib_id "power:GND") (at 129.54 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a18a64c-1351-4c33-8537-9ea80f418330)
-    (property "Reference" "#PWR06921" (at 129.54 186.69 0)
+    (property "Reference" "#PWR0113" (at 129.54 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 184.15 0)
@@ -3826,9 +3826,9 @@
     )
     (pin "1" (uuid a571066f-528b-4cc7-b415-e2b61acc53f4))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0978") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0113") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3842,7 +3842,7 @@
   (symbol (lib_id "power:GND") (at 113.03 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b95c9df-1da5-4949-b878-f8664b86b73b)
-    (property "Reference" "#PWR06919" (at 113.03 186.69 0)
+    (property "Reference" "#PWR0111" (at 113.03 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 184.15 0)
@@ -3856,9 +3856,9 @@
     )
     (pin "1" (uuid c7f87634-d37c-46ff-a00c-efa2844af91c))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0976") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0111") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3872,7 +3872,7 @@
   (symbol (lib_id "Device:R_Small") (at 135.89 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c23955d-5ae8-41c7-a930-29d8cd769e8f)
-    (property "Reference" "R23" (at 135.89 166.37 90)
+    (property "Reference" "R37" (at 135.89 166.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 135.89 168.91 90)
@@ -3887,9 +3887,9 @@
     (pin "1" (uuid be7b6340-abc4-48a3-af7d-892308cc5e6f))
     (pin "2" (uuid 54a8f67c-ad0d-4a0b-8c7a-24011e2160b3))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "R50") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R37") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3903,7 +3903,7 @@
   (symbol (lib_id "MEMS_Electromechanical:SW_DIP_A6H-4101") (at 36.83 170.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ceb8ec9-e3fb-4e40-a1a7-7adc8e7ec1b8)
-    (property "Reference" "SW2" (at 36.83 161.29 0)
+    (property "Reference" "SW1" (at 36.83 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x04" (at 36.83 163.83 0)
@@ -3930,9 +3930,9 @@
     (pin "7" (uuid 657f975d-031b-418b-893b-0f649b9d24f6))
     (pin "8" (uuid aae6154e-de3a-4e3e-a422-f85cb4f2b2e6))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "SW2") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "SW1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3946,7 +3946,7 @@
   (symbol (lib_id "Device:C") (at 39.37 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e563339-2b5f-4d8f-aa87-3658975b0290)
-    (property "Reference" "C13" (at 43.18 35.5599 0)
+    (property "Reference" "C44" (at 43.18 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 43.18 38.0999 0)
@@ -3961,9 +3961,9 @@
     (pin "1" (uuid 2a3a9960-afc6-4803-b6d8-d5862608e641))
     (pin "2" (uuid 6a64b97d-4fac-4be3-a237-9e2dd3c7bb15))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C10") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C44") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3977,7 +3977,7 @@
   (symbol (lib_id "power:GND") (at 91.44 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61ca537e-1fe6-4d9a-9440-9923856ba155)
-    (property "Reference" "#PWR06917" (at 91.44 49.53 0)
+    (property "Reference" "#PWR0109" (at 91.44 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 48.26 0)
@@ -3991,9 +3991,9 @@
     )
     (pin "1" (uuid 49968643-c6cc-41de-973e-6bc3a81c2fc0))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0974") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0109") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4007,7 +4007,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64356f7d-4eaa-492d-9296-bd11044887da)
-    (property "Reference" "TP2" (at 72.39 147.32 90)
+    (property "Reference" "TP13" (at 72.39 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 72.39 142.24 90)
@@ -4021,9 +4021,9 @@
     )
     (pin "1" (uuid 2005154e-ae7e-4c9e-b8b6-b63bd52e89b4))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP18") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP13") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4037,7 +4037,7 @@
   (symbol (lib_id "Device:C") (at 80.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64b171bc-c474-478f-a473-74dbc29e8941)
-    (property "Reference" "C12" (at 83.82 35.5599 0)
+    (property "Reference" "C46" (at 83.82 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 83.82 38.0999 0)
@@ -4052,9 +4052,9 @@
     (pin "1" (uuid 4fe09676-5b89-44b0-aa53-a212980219bf))
     (pin "2" (uuid fdfcf126-ef69-4f90-b574-21f342fb6914))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C13") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C46") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4068,7 +4068,7 @@
   (symbol (lib_id "power:GND") (at 46.99 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 672b9d61-522a-4821-99c8-8844da1b7cf7)
-    (property "Reference" "#PWR06905" (at 46.99 196.85 0)
+    (property "Reference" "#PWR097" (at 46.99 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 195.58 0)
@@ -4082,9 +4082,9 @@
     )
     (pin "1" (uuid 6917a612-0800-4731-8e82-e8aadeee288a))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0962") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR097") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4098,7 +4098,7 @@
   (symbol (lib_id "power:GND") (at 224.79 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697177d2-789f-423d-83da-6e091279a258)
-    (property "Reference" "#PWR06928" (at 224.79 53.34 0)
+    (property "Reference" "#PWR0120" (at 224.79 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 52.07 0)
@@ -4112,9 +4112,9 @@
     )
     (pin "1" (uuid 292a0856-be37-4754-ac1e-84c7c49284f3))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0985") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0120") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4128,7 +4128,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 91.44 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d417f2a-653c-4e1b-950b-31de4b91925d)
-    (property "Reference" "C15" (at 95.25 34.6709 0)
+    (property "Reference" "C47" (at 95.25 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 95.25 37.2109 0)
@@ -4143,9 +4143,9 @@
     (pin "1" (uuid 60172d9a-03fd-4a88-90c5-88573406fda6))
     (pin "2" (uuid c843c6ea-b3e4-497d-8d37-724a4c63535e))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C11") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C47") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4159,7 +4159,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e5278f9-3031-4cab-ba03-bc8194c78393)
-    (property "Reference" "JP2" (at 50.8 185.42 0)
+    (property "Reference" "JP22" (at 50.8 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR2" (at 55.88 185.42 0)
@@ -4177,9 +4177,9 @@
     (pin "1" (uuid 1cdfbd84-802a-4345-a66f-110cb90ac300))
     (pin "2" (uuid f73d3c08-4bd8-4fde-ada0-167d1ef9c2cc))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP22") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4193,7 +4193,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eaa2976-c191-4978-91f7-1f9a91f84a1d)
-    (property "Reference" "C21" (at 146.05 48.26 0)
+    (property "Reference" "C50" (at 146.05 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.05 50.8 0)
@@ -4208,9 +4208,9 @@
     (pin "1" (uuid 5d015a34-cd6a-49b0-b775-3418c9fdbaa8))
     (pin "2" (uuid 1e6261dd-04c2-404b-9e47-3ac2539289f1))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C41") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C50") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4224,7 +4224,7 @@
   (symbol (lib_id "power:GND") (at 58.42 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f12e433-0de5-43c1-a8ce-617e5cfbd66a)
-    (property "Reference" "#PWR06907" (at 64.77 82.55 0)
+    (property "Reference" "#PWR099" (at 64.77 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 82.5499 90)
@@ -4238,9 +4238,9 @@
     )
     (pin "1" (uuid 9748b791-8779-4da1-810e-1df882552448))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0964") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR099") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4254,7 +4254,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f8b09a8-8629-4e25-995f-10a67eeb6889)
-    (property "Reference" "JP4" (at 50.8 182.88 0)
+    (property "Reference" "JP21" (at 50.8 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR1" (at 55.88 182.88 0)
@@ -4272,9 +4272,9 @@
     (pin "1" (uuid 07cdaf35-13a3-4de1-ae2b-1b17e41aa28a))
     (pin "2" (uuid 495128c3-ca19-452d-9980-22e6d54e217f))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP4") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP21") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4288,7 +4288,7 @@
   (symbol (lib_id "power:GND") (at 50.8 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74c9b4c6-39fc-480b-891a-1fd9df87bd7b)
-    (property "Reference" "#PWR06906" (at 50.8 49.53 0)
+    (property "Reference" "#PWR098" (at 50.8 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 48.26 0)
@@ -4302,9 +4302,9 @@
     )
     (pin "1" (uuid 7f349034-7b0e-46a3-ad2e-d37613ab1d78))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0963") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR098") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4318,7 +4318,7 @@
   (symbol (lib_id "power:GND") (at 234.95 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 792ad5a3-5a01-4496-beff-59ace6355be6)
-    (property "Reference" "#PWR06929" (at 234.95 46.99 0)
+    (property "Reference" "#PWR0121" (at 234.95 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 45.72 0)
@@ -4332,9 +4332,9 @@
     )
     (pin "1" (uuid 568c1f4c-1131-4844-9037-9d1719b32f1a))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0986") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0121") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4348,7 +4348,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 39.37 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82747f82-4ef2-47a2-a2d5-e87805788db4)
-    (property "Reference" "#FLG06901" (at 39.37 27.305 0)
+    (property "Reference" "#FLG05" (at 39.37 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 38.1 25.4 0)
@@ -4362,9 +4362,9 @@
     )
     (pin "1" (uuid a2154cc6-4ddb-4192-8368-437130e67c4a))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#FLG0905") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#FLG05") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4381,7 +4381,7 @@
   (symbol (lib_id "power:GND") (at 39.37 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83e40a68-7203-40d4-b6ff-3eac6ed813f9)
-    (property "Reference" "#PWR06904" (at 39.37 49.53 0)
+    (property "Reference" "#PWR096" (at 39.37 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 48.26 0)
@@ -4395,9 +4395,9 @@
     )
     (pin "1" (uuid 53a10df6-b489-405c-aec0-8f545cf4f554))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0961") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR096") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4411,7 +4411,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:LED_0805_Red") (at 236.22 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d422ced-f7ee-4855-96ba-ea2c0c8c88fd)
-    (property "Reference" "D5" (at 240.03 149.5425 90)
+    (property "Reference" "D10" (at 240.03 149.5425 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 240.03 152.0825 90)
@@ -4432,9 +4432,9 @@
     (pin "1" (uuid 7c0d526b-bd8e-4c26-b88c-791c08c63094))
     (pin "2" (uuid 6e44f06a-8a17-40cb-9b7e-be66a9ba7d6e))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "D1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "D10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4448,7 +4448,7 @@
   (symbol (lib_name "EuroBoardLED_1") (lib_id "MEMS_Custom:EuroBoardLED") (at 246.38 39.37 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 917df5d3-a3bb-4004-9cf8-22cc2d639334)
-    (property "Reference" "B1" (at 248.92 27.94 0)
+    (property "Reference" "B2" (at 248.92 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EuroBoard" (at 248.92 30.48 0)
@@ -4501,9 +4501,9 @@
     (pin "D3" (uuid e18f27ea-15a3-48f3-afda-39d7f8247400))
     (pin "D4" (uuid 5e6a157b-1bcf-47ee-9858-fd28ee500459))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "B1") (unit 2)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "B2") (unit 2)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4517,7 +4517,7 @@
   (symbol (lib_id "power:GND") (at 66.04 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92249794-c89c-40cf-bdce-df3250bcc7f5)
-    (property "Reference" "#PWR06911" (at 66.04 49.53 0)
+    (property "Reference" "#PWR0103" (at 66.04 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 48.26 0)
@@ -4531,9 +4531,9 @@
     )
     (pin "1" (uuid c8810a8e-1eb3-4655-9c00-376cff4405ae))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0968") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0103") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4547,7 +4547,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 924bfe37-bf48-4f78-ab3c-7498bd8b4942)
-    (property "Reference" "JP3" (at 50.8 180.34 0)
+    (property "Reference" "JP20" (at 50.8 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR0" (at 55.88 180.34 0)
@@ -4565,9 +4565,9 @@
     (pin "1" (uuid ae8c9ca5-d7d5-4719-a1dd-b92dd0b1ffab))
     (pin "2" (uuid f4291307-3fd3-4095-bc32-9bb3b4d217a3))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP3") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP20") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4581,7 +4581,7 @@
   (symbol (lib_id "Device:C_Small") (at 113.03 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925b638d-4fc4-41fe-929b-5b3cad1b7d93)
-    (property "Reference" "C19" (at 107.95 173.99 0)
+    (property "Reference" "C48" (at 107.95 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 107.95 176.5238 0)
@@ -4599,9 +4599,9 @@
     (pin "1" (uuid f78372c2-dc0e-46cc-901e-9311787bbd44))
     (pin "2" (uuid 90228213-0886-46f6-a59e-61c5209c1398))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C22") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C48") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4615,7 +4615,7 @@
   (symbol (lib_id "power:GND") (at 34.29 82.55 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9901883a-3889-48eb-89c8-6043c7584da4)
-    (property "Reference" "#PWR06902" (at 27.94 82.55 0)
+    (property "Reference" "#PWR094" (at 27.94 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 82.5499 90)
@@ -4629,9 +4629,9 @@
     )
     (pin "1" (uuid cc660677-e0ff-42b7-b6e3-35ac7b2d0c4f))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0959") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR094") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4645,7 +4645,7 @@
   (symbol (lib_id "power:GND") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c715780-baed-41e2-abaf-2f9af271928b)
-    (property "Reference" "#PWR06914" (at 72.39 158.75 0)
+    (property "Reference" "#PWR0106" (at 72.39 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.3901 156.21 90)
@@ -4659,9 +4659,9 @@
     )
     (pin "1" (uuid 5b1a1e59-b20d-476e-88f3-6e4321be670a))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0971") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0106") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4675,7 +4675,7 @@
   (symbol (lib_id "power:GND") (at 187.96 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e077bee-9689-42bd-a785-ac2b422b42a3)
-    (property "Reference" "#PWR06926" (at 187.96 58.42 0)
+    (property "Reference" "#PWR0118" (at 187.96 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 55.88 0)
@@ -4689,9 +4689,9 @@
     )
     (pin "1" (uuid 9ecdd6a8-c817-4328-ac5a-a92cd33b3a25))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0983") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0118") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4705,7 +4705,7 @@
   (symbol (lib_id "power:GND") (at 123.19 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0a878f2-3b42-47bd-9d8d-bff8c3332b94)
-    (property "Reference" "#PWR06920" (at 123.19 189.23 0)
+    (property "Reference" "#PWR0112" (at 123.19 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 186.69 0)
@@ -4719,9 +4719,9 @@
     )
     (pin "1" (uuid e396c199-2d7d-4481-8289-e751d663d8c8))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0977") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0112") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4735,7 +4735,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0439643-fef3-40f9-9de0-391b0884df74)
-    (property "Reference" "TP11" (at 74.93 147.32 90)
+    (property "Reference" "TP14" (at 74.93 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 74.93 142.24 90)
@@ -4749,9 +4749,9 @@
     )
     (pin "1" (uuid 2fb69dea-722d-467e-af97-c4b482ca89fd))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP10") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP14") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4765,7 +4765,7 @@
   (symbol (lib_id "power:GND") (at 191.77 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8a206c2-4ddb-4d09-b3b5-47ac2cc98744)
-    (property "Reference" "#PWR06927" (at 191.77 151.13 0)
+    (property "Reference" "#PWR0119" (at 191.77 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 149.86 0)
@@ -4779,9 +4779,9 @@
     )
     (pin "1" (uuid 81f12034-8778-4345-9bb8-e79f8ce6ba17))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0984") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0119") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4795,7 +4795,7 @@
   (symbol (lib_id "MEMS_Custom:EuroBoardLED") (at 43.18 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba848db9-27f1-4693-949c-69f6b11f5f09)
-    (property "Reference" "B1" (at 46.355 73.66 0)
+    (property "Reference" "B2" (at 46.355 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EuroBoard" (at 46.355 76.2 0)
@@ -4848,9 +4848,9 @@
     (pin "D3" (uuid 66592d18-5621-4f77-997e-e7dcea48e8b6))
     (pin "D4" (uuid 0cdf99b0-cbb1-4525-92ff-36cd7a5f384b))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "B1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "B2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4864,7 +4864,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 191.77 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c29f7f6b-d217-46cd-becb-25eacc663a76)
-    (property "Reference" "#FLG06902" (at 191.77 41.275 0)
+    (property "Reference" "#FLG06" (at 191.77 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 190.5 39.37 0)
@@ -4878,9 +4878,9 @@
     )
     (pin "1" (uuid 8a5f2a57-d006-4868-a7c8-25d300116919))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#FLG0906") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#FLG06") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4897,7 +4897,7 @@
   (symbol (lib_id "MEMS_IC:STM32G030CxT") (at 191.77 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b22ca3-6171-40c0-bda9-90109cb76b60)
-    (property "Reference" "U4" (at 193.7259 143.51 0)
+    (property "Reference" "U11" (at 193.7259 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G030CxT" (at 193.7259 146.05 0)
@@ -4964,9 +4964,9 @@
     (pin "8" (uuid 6d63661f-9e89-4bc1-bb9f-c495c3915ff7))
     (pin "9" (uuid d80bc2e9-aa1b-4173-975f-6e84f0cd2329))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "U4") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "U11") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4980,7 +4980,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c79b4cc6-7428-4f30-924d-bdfcda602b18)
-    (property "Reference" "C23" (at 167.64 142.2462 0)
+    (property "Reference" "C51" (at 167.64 142.2462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 167.64 144.7862 0)
@@ -4995,9 +4995,9 @@
     (pin "1" (uuid df7d422c-fc51-4ff0-b964-5aeb62133873))
     (pin "2" (uuid c25da916-6283-4e88-a52e-123aafa70a4f))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C43") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C51") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5011,7 +5011,7 @@
   (symbol (lib_id "power:GND") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca4bf424-9b4b-4820-81c0-5e9d655efb0e)
-    (property "Reference" "#PWR06915" (at 74.93 158.75 0)
+    (property "Reference" "#PWR0107" (at 74.93 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.9301 156.21 90)
@@ -5025,9 +5025,9 @@
     )
     (pin "1" (uuid 2a8347c0-7e5c-40ec-8cba-5cb6c7d59a5e))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0972") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0107") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5041,7 +5041,7 @@
   (symbol (lib_id "power:GND") (at 34.29 87.63 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb01a991-15f8-4543-b123-2a9eee360acd)
-    (property "Reference" "#PWR06903" (at 27.94 87.63 0)
+    (property "Reference" "#PWR095" (at 27.94 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 87.6299 90)
@@ -5055,9 +5055,9 @@
     )
     (pin "1" (uuid 3c45e0ec-0a16-46c5-9693-0a02b1ecbf25))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0960") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR095") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5071,7 +5071,7 @@
   (symbol (lib_id "power:GND") (at 69.85 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dade8cf3-ea60-4875-8285-a996aff8e003)
-    (property "Reference" "#PWR06913" (at 69.85 158.75 0)
+    (property "Reference" "#PWR0105" (at 69.85 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.8501 156.21 90)
@@ -5085,9 +5085,9 @@
     )
     (pin "1" (uuid 98f31de9-f0b2-49d5-bafc-31ca33dc7c6c))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0970") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0105") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5101,7 +5101,7 @@
   (symbol (lib_id "power:GND") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8726929-44cf-4949-b22f-e2a51078a72f)
-    (property "Reference" "#PWR06912" (at 67.31 158.75 0)
+    (property "Reference" "#PWR0104" (at 67.31 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.3101 156.21 90)
@@ -5115,9 +5115,9 @@
     )
     (pin "1" (uuid 0c9a0896-5267-43a5-b489-26d1c5432037))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0969") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0104") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5145,9 +5145,9 @@
     )
     (pin "1" (uuid 6fd6687d-994e-4f5e-b20f-3d59df350d92))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP16") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP12") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5161,7 +5161,7 @@
   (symbol (lib_id "power:GND") (at 152.4 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f305cd18-184b-4977-811c-9fa0e48af886)
-    (property "Reference" "#PWR06922" (at 152.4 62.23 0)
+    (property "Reference" "#PWR0114" (at 152.4 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 60.96 0)
@@ -5175,9 +5175,9 @@
     )
     (pin "1" (uuid 6a8526d5-537f-4e21-ab3f-1af9949434a0))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR0979") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR0114") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5191,7 +5191,7 @@
   (symbol (lib_id "MEMS_Passive:L_Ferrite_742792040") (at 182.88 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f46954c8-8c27-458a-882f-79a8dc90e53d)
-    (property "Reference" "L3" (at 182.88 39.37 90)
+    (property "Reference" "L1" (at 182.88 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ferrite" (at 182.88 41.91 90)
@@ -5212,8 +5212,8 @@
     (pin "1" (uuid 5da1e11c-18f7-4a00-ac03-a501d0181ced))
     (pin "2" (uuid a8d83584-2ec6-4eeb-aa1b-152ca8ae9cda))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "L1") (unit 1)
         )
       )
@@ -5228,7 +5228,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 50.8 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f84296d0-2881-4d3a-8d1e-7e495ea261d6)
-    (property "Reference" "C14" (at 54.61 34.6709 0)
+    (property "Reference" "C45" (at 54.61 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 54.61 37.2109 0)
@@ -5243,9 +5243,9 @@
     (pin "1" (uuid d85ca385-a80c-455a-85ec-768808536b38))
     (pin "2" (uuid 7229a824-5f47-44c8-9503-4e3a277159fc))
     (instances
-      (project "EuroMeasure-HVPSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C4") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C45") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
