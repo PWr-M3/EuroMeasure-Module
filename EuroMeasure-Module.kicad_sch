@@ -126,7 +126,7 @@
           (reference "TP909") (unit 1)
         )
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad"
-          (reference "TP909") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -162,7 +162,7 @@
           (reference "TP908") (unit 1)
         )
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad"
-          (reference "TP908") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -198,7 +198,7 @@
           (reference "TP910") (unit 1)
         )
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad"
-          (reference "TP910") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -234,7 +234,7 @@
           (reference "TP906") (unit 1)
         )
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad"
-          (reference "TP906") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -270,7 +270,7 @@
           (reference "TP907") (unit 1)
         )
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad"
-          (reference "TP907") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"

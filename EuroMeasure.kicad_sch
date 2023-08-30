@@ -3029,7 +3029,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 016ac401-b234-499b-a981-3b09d024d333)
-    (property "Reference" "C52" (at 181.61 46.99 0)
+    (property "Reference" "C10" (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 181.61 49.53 0)
@@ -3046,7 +3046,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C52") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3060,7 +3060,7 @@
   (symbol (lib_id "power:GND") (at 58.42 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05084350-4366-48f5-8c15-f4d3ca94da5c)
-    (property "Reference" "#PWR0101" (at 64.77 95.25 0)
+    (property "Reference" "#PWR09" (at 64.77 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 95.2499 90)
@@ -3076,7 +3076,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3090,7 +3090,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 87.63 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0f5f1e-8ca1-4ece-a836-cb386070436f)
-    (property "Reference" "TP15" (at 86.36 24.13 0)
+    (property "Reference" "TP10" (at 86.36 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V3" (at 86.36 21.59 0)
@@ -3106,7 +3106,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP15") (unit 1)
+          (reference "TP10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3157,7 +3157,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11748897-518b-4e63-9f58-24c519aa6562)
-    (property "Reference" "TP11" (at 67.31 147.32 90)
+    (property "Reference" "TP6" (at 67.31 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 67.31 142.24 90)
@@ -3173,7 +3173,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP11") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3187,7 +3187,7 @@
   (symbol (lib_id "power:+3.3V") (at 96.52 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18e8cbe7-7833-4c36-af5d-7ad52dd3a43e)
-    (property "Reference" "#PWR0110" (at 96.52 31.75 0)
+    (property "Reference" "#PWR018" (at 96.52 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 96.52 22.86 0)
@@ -3203,7 +3203,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3217,7 +3217,7 @@
   (symbol (lib_id "power:GND") (at 63.5 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ddbf1a1-989b-4a2f-8823-5a8196c14cbe)
-    (property "Reference" "#PWR0102" (at 69.85 110.49 0)
+    (property "Reference" "#PWR010" (at 69.85 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 110.4899 90)
@@ -3233,7 +3233,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3286,7 +3286,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25122625-eb80-429a-b437-11ed746af1ca)
-    (property "Reference" "R36" (at 64.77 175.26 90)
+    (property "Reference" "R2" (at 64.77 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 177.8 90)
@@ -3306,7 +3306,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R36") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3320,7 +3320,7 @@
   (symbol (lib_id "power:+3.3V") (at 29.21 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2701844a-60ff-45e2-9877-dd0f77bdf4b3)
-    (property "Reference" "#PWR093" (at 33.02 118.11 0)
+    (property "Reference" "#PWR01" (at 33.02 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 24.13 118.11 0)
@@ -3336,7 +3336,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3350,7 +3350,7 @@
   (symbol (lib_id "MEMS_Protection:Polyfuse-500mA-1206L050/15YR") (at 29.21 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 285534d0-d8f3-4448-ae40-3fa6d78cb95f)
-    (property "Reference" "F3" (at 29.21 25.4 90)
+    (property "Reference" "F1" (at 29.21 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse 0.5A" (at 29.21 27.94 90)
@@ -3373,7 +3373,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "F3") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3387,7 +3387,7 @@
   (symbol (lib_id "Device:C") (at 104.14 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bc24c7d-93ba-4fb5-b153-8cc92da1c6a9)
-    (property "Reference" "C53" (at 107.95 153.6699 0)
+    (property "Reference" "C5" (at 107.95 153.6699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 107.95 156.2099 0)
@@ -3404,7 +3404,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C53") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3418,7 +3418,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ed469c4-9c9e-444d-b1d5-bbebca6b5235)
-    (property "Reference" "R35" (at 64.77 165.1 90)
+    (property "Reference" "R1" (at 64.77 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 167.64 90)
@@ -3438,7 +3438,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R35") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3452,7 +3452,7 @@
   (symbol (lib_id "power:GND") (at 58.42 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 378a9bce-8035-4dfc-8b24-d880842a0d53)
-    (property "Reference" "#PWR0100" (at 64.77 87.63 0)
+    (property "Reference" "#PWR08" (at 64.77 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 87.6299 90)
@@ -3468,7 +3468,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3482,7 +3482,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 140.97 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38ba8e2b-ad41-4e55-95e1-5b2b031eb2ac)
-    (property "Reference" "R38" (at 241.3 139.7 0)
+    (property "Reference" "R4" (at 241.3 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 241.3 142.24 0)
@@ -3499,7 +3499,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R38") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3513,7 +3513,7 @@
   (symbol (lib_id "power:+3.3V") (at 175.26 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bb6600f-181d-4df7-9ef3-7caaddceff51)
-    (property "Reference" "#PWR0117" (at 175.26 45.72 0)
+    (property "Reference" "#PWR027" (at 175.26 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 175.26 36.83 0)
@@ -3529,7 +3529,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3543,7 +3543,7 @@
   (symbol (lib_id "MEMS_IC:AZ1117IH-3.3TRG1-SOT223") (at 66.04 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42f0ec56-ce23-4d24-b8ad-3ef562cb0837)
-    (property "Reference" "U10" (at 66.04 24.13 0)
+    (property "Reference" "U1" (at 66.04 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3V3" (at 66.04 26.67 0)
@@ -3567,7 +3567,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "U10") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3581,7 +3581,7 @@
   (symbol (lib_id "Device:C_Small") (at 127 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47a242c2-4573-408d-9077-c986456345ed)
-    (property "Reference" "C49" (at 129.54 177.8 0)
+    (property "Reference" "C7" (at 129.54 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 129.54 180.3338 0)
@@ -3601,7 +3601,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C49") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3615,7 +3615,7 @@
   (symbol (lib_id "power:GND") (at 165.1 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a61e40d-a97c-4cd2-b6c1-5191eb04c036)
-    (property "Reference" "#PWR0116" (at 165.1 153.67 0)
+    (property "Reference" "#PWR026" (at 165.1 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 147.32 0)
@@ -3631,7 +3631,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3645,7 +3645,7 @@
   (symbol (lib_id "power:GND") (at 236.22 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c2240b7-f6d8-42ad-a0c8-7772e4b60d80)
-    (property "Reference" "#PWR0122" (at 236.22 160.02 0)
+    (property "Reference" "#PWR030" (at 236.22 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 158.75 0)
@@ -3661,7 +3661,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3675,7 +3675,7 @@
   (symbol (lib_id "power:GND") (at 160.02 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c73004b-2020-4280-ab0a-20105fde5f72)
-    (property "Reference" "#PWR0115" (at 160.02 62.23 0)
+    (property "Reference" "#PWR025" (at 160.02 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 60.96 0)
@@ -3691,7 +3691,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3705,7 +3705,7 @@
   (symbol (lib_id "power:GND") (at 80.01 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ed2c8ae-1bbf-410c-8bb2-53ee74f5bb30)
-    (property "Reference" "#PWR0108" (at 80.01 49.53 0)
+    (property "Reference" "#PWR016" (at 80.01 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 48.26 0)
@@ -3721,7 +3721,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3735,7 +3735,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518ff594-9a75-42bc-bff1-d184cb94f219)
-    (property "Reference" "JP23" (at 50.8 187.96 0)
+    (property "Reference" "JP4" (at 50.8 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR3" (at 55.88 187.96 0)
@@ -3755,7 +3755,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP23") (unit 1)
+          (reference "JP4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3769,7 +3769,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:D_1N4148WS-SOD323") (at 147.32 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531f9032-c386-4efb-8edc-54e94344e912)
-    (property "Reference" "D9" (at 147.32 38.1 0)
+    (property "Reference" "D1" (at 147.32 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 147.32 40.64 0)
@@ -3798,7 +3798,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "D9") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3812,7 +3812,7 @@
   (symbol (lib_id "power:GND") (at 127 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a18a64c-1351-4c33-8537-9ea80f418330)
-    (property "Reference" "#PWR0113" (at 127 189.23 0)
+    (property "Reference" "#PWR023" (at 127 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 186.69 0)
@@ -3828,7 +3828,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3842,7 +3842,7 @@
   (symbol (lib_id "power:GND") (at 110.49 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b95c9df-1da5-4949-b878-f8664b86b73b)
-    (property "Reference" "#PWR0111" (at 110.49 189.23 0)
+    (property "Reference" "#PWR020" (at 110.49 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 186.69 0)
@@ -3858,7 +3858,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3872,7 +3872,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.35 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c23955d-5ae8-41c7-a930-29d8cd769e8f)
-    (property "Reference" "R37" (at 133.35 168.91 90)
+    (property "Reference" "R3" (at 133.35 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 133.35 171.45 90)
@@ -3889,7 +3889,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R37") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3946,7 +3946,7 @@
   (symbol (lib_id "Device:C") (at 39.37 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e563339-2b5f-4d8f-aa87-3658975b0290)
-    (property "Reference" "C44" (at 43.18 35.5599 0)
+    (property "Reference" "C1" (at 43.18 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 43.18 38.0999 0)
@@ -3963,7 +3963,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C44") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3977,7 +3977,7 @@
   (symbol (lib_id "power:GND") (at 91.44 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61ca537e-1fe6-4d9a-9440-9923856ba155)
-    (property "Reference" "#PWR0109" (at 91.44 49.53 0)
+    (property "Reference" "#PWR017" (at 91.44 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 48.26 0)
@@ -3993,7 +3993,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4007,7 +4007,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64356f7d-4eaa-492d-9296-bd11044887da)
-    (property "Reference" "TP13" (at 72.39 147.32 90)
+    (property "Reference" "TP8" (at 72.39 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 72.39 142.24 90)
@@ -4023,7 +4023,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP13") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4037,7 +4037,7 @@
   (symbol (lib_id "Device:C") (at 80.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64b171bc-c474-478f-a473-74dbc29e8941)
-    (property "Reference" "C46" (at 83.82 35.5599 0)
+    (property "Reference" "C3" (at 83.82 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 83.82 38.0999 0)
@@ -4054,7 +4054,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C46") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4068,7 +4068,7 @@
   (symbol (lib_id "power:GND") (at 46.99 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 672b9d61-522a-4821-99c8-8844da1b7cf7)
-    (property "Reference" "#PWR097" (at 46.99 196.85 0)
+    (property "Reference" "#PWR05" (at 46.99 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 195.58 0)
@@ -4084,7 +4084,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4098,7 +4098,7 @@
   (symbol (lib_id "power:GND") (at 104.14 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697177d2-789f-423d-83da-6e091279a258)
-    (property "Reference" "#PWR0120" (at 104.14 167.64 0)
+    (property "Reference" "#PWR019" (at 104.14 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 166.37 0)
@@ -4114,7 +4114,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4128,7 +4128,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 91.44 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d417f2a-653c-4e1b-950b-31de4b91925d)
-    (property "Reference" "C47" (at 95.25 34.6709 0)
+    (property "Reference" "C4" (at 95.25 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 95.25 37.2109 0)
@@ -4145,7 +4145,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C47") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4159,7 +4159,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e5278f9-3031-4cab-ba03-bc8194c78393)
-    (property "Reference" "JP22" (at 50.8 185.42 0)
+    (property "Reference" "JP3" (at 50.8 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR2" (at 55.88 185.42 0)
@@ -4179,7 +4179,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP22") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4193,7 +4193,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eaa2976-c191-4978-91f7-1f9a91f84a1d)
-    (property "Reference" "C50" (at 146.05 48.26 0)
+    (property "Reference" "C8" (at 146.05 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.05 50.8 0)
@@ -4210,7 +4210,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C50") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4224,7 +4224,7 @@
   (symbol (lib_id "power:GND") (at 58.42 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f12e433-0de5-43c1-a8ce-617e5cfbd66a)
-    (property "Reference" "#PWR099" (at 64.77 82.55 0)
+    (property "Reference" "#PWR07" (at 64.77 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 82.5499 90)
@@ -4240,7 +4240,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4254,7 +4254,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f8b09a8-8629-4e25-995f-10a67eeb6889)
-    (property "Reference" "JP21" (at 50.8 182.88 0)
+    (property "Reference" "JP2" (at 50.8 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR1" (at 55.88 182.88 0)
@@ -4274,7 +4274,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP21") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4288,7 +4288,7 @@
   (symbol (lib_id "power:GND") (at 50.8 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74c9b4c6-39fc-480b-891a-1fd9df87bd7b)
-    (property "Reference" "#PWR098" (at 50.8 49.53 0)
+    (property "Reference" "#PWR06" (at 50.8 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 48.26 0)
@@ -4304,7 +4304,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4318,7 +4318,7 @@
   (symbol (lib_id "power:GND") (at 114.3 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 792ad5a3-5a01-4496-beff-59ace6355be6)
-    (property "Reference" "#PWR0121" (at 114.3 161.29 0)
+    (property "Reference" "#PWR021" (at 114.3 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 160.02 0)
@@ -4334,7 +4334,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4348,7 +4348,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 39.37 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82747f82-4ef2-47a2-a2d5-e87805788db4)
-    (property "Reference" "#FLG05" (at 39.37 27.305 0)
+    (property "Reference" "#FLG01" (at 39.37 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 38.1 25.4 0)
@@ -4364,7 +4364,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4381,7 +4381,7 @@
   (symbol (lib_id "power:GND") (at 39.37 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83e40a68-7203-40d4-b6ff-3eac6ed813f9)
-    (property "Reference" "#PWR096" (at 39.37 49.53 0)
+    (property "Reference" "#PWR04" (at 39.37 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 48.26 0)
@@ -4397,7 +4397,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4411,7 +4411,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:LED_0805_Red") (at 236.22 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d422ced-f7ee-4855-96ba-ea2c0c8c88fd)
-    (property "Reference" "D10" (at 240.03 149.5425 90)
+    (property "Reference" "D2" (at 240.03 149.5425 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 240.03 152.0825 90)
@@ -4434,7 +4434,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "D10") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4448,7 +4448,7 @@
   (symbol (lib_name "EuroBoardLED_1") (lib_id "MEMS_Custom:EuroBoardLED") (at 125.73 153.67 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 917df5d3-a3bb-4004-9cf8-22cc2d639334)
-    (property "Reference" "B2" (at 128.27 142.24 0)
+    (property "Reference" "B1" (at 128.27 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EuroBoard" (at 128.27 144.78 0)
@@ -4503,7 +4503,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "B2") (unit 2)
+          (reference "B1") (unit 2)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4517,7 +4517,7 @@
   (symbol (lib_id "power:GND") (at 66.04 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92249794-c89c-40cf-bdce-df3250bcc7f5)
-    (property "Reference" "#PWR0103" (at 66.04 49.53 0)
+    (property "Reference" "#PWR011" (at 66.04 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 48.26 0)
@@ -4533,7 +4533,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4547,7 +4547,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 924bfe37-bf48-4f78-ab3c-7498bd8b4942)
-    (property "Reference" "JP20" (at 50.8 180.34 0)
+    (property "Reference" "JP1" (at 50.8 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR0" (at 55.88 180.34 0)
@@ -4567,7 +4567,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP20") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4581,7 +4581,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925b638d-4fc4-41fe-929b-5b3cad1b7d93)
-    (property "Reference" "C48" (at 105.41 176.53 0)
+    (property "Reference" "C6" (at 105.41 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 105.41 179.0638 0)
@@ -4601,7 +4601,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C48") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4615,7 +4615,7 @@
   (symbol (lib_id "power:GND") (at 34.29 82.55 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9901883a-3889-48eb-89c8-6043c7584da4)
-    (property "Reference" "#PWR094" (at 27.94 82.55 0)
+    (property "Reference" "#PWR02" (at 27.94 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 82.5499 90)
@@ -4631,7 +4631,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4645,7 +4645,7 @@
   (symbol (lib_id "power:GND") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c715780-baed-41e2-abaf-2f9af271928b)
-    (property "Reference" "#PWR0106" (at 72.39 158.75 0)
+    (property "Reference" "#PWR014" (at 72.39 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.3901 156.21 90)
@@ -4661,7 +4661,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4675,7 +4675,7 @@
   (symbol (lib_id "power:GND") (at 187.96 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e077bee-9689-42bd-a785-ac2b422b42a3)
-    (property "Reference" "#PWR0118" (at 187.96 58.42 0)
+    (property "Reference" "#PWR028" (at 187.96 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 55.88 0)
@@ -4691,7 +4691,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4705,7 +4705,7 @@
   (symbol (lib_id "power:GND") (at 120.65 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0a878f2-3b42-47bd-9d8d-bff8c3332b94)
-    (property "Reference" "#PWR0112" (at 120.65 191.77 0)
+    (property "Reference" "#PWR022" (at 120.65 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 189.23 0)
@@ -4721,7 +4721,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4735,7 +4735,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0439643-fef3-40f9-9de0-391b0884df74)
-    (property "Reference" "TP14" (at 74.93 147.32 90)
+    (property "Reference" "TP9" (at 74.93 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 74.93 142.24 90)
@@ -4751,7 +4751,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP14") (unit 1)
+          (reference "TP9") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4765,7 +4765,7 @@
   (symbol (lib_id "power:GND") (at 191.77 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8a206c2-4ddb-4d09-b3b5-47ac2cc98744)
-    (property "Reference" "#PWR0119" (at 191.77 151.13 0)
+    (property "Reference" "#PWR029" (at 191.77 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 149.86 0)
@@ -4781,7 +4781,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4795,7 +4795,7 @@
   (symbol (lib_id "MEMS_Custom:EuroBoardLED") (at 43.18 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba848db9-27f1-4693-949c-69f6b11f5f09)
-    (property "Reference" "B2" (at 46.355 73.66 0)
+    (property "Reference" "B1" (at 46.355 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EuroBoard" (at 46.355 76.2 0)
@@ -4850,7 +4850,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "B2") (unit 1)
+          (reference "B1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4864,7 +4864,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 191.77 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c29f7f6b-d217-46cd-becb-25eacc663a76)
-    (property "Reference" "#FLG06" (at 191.77 41.275 0)
+    (property "Reference" "#FLG02" (at 191.77 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 190.5 39.37 0)
@@ -4880,7 +4880,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4897,7 +4897,7 @@
   (symbol (lib_id "MEMS_IC:STM32G030CxT") (at 191.77 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b22ca3-6171-40c0-bda9-90109cb76b60)
-    (property "Reference" "U11" (at 193.7259 143.51 0)
+    (property "Reference" "U2" (at 193.7259 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G030CxT" (at 193.7259 146.05 0)
@@ -4966,7 +4966,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "U11") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4980,7 +4980,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c79b4cc6-7428-4f30-924d-bdfcda602b18)
-    (property "Reference" "C51" (at 167.64 142.2462 0)
+    (property "Reference" "C9" (at 167.64 142.2462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 167.64 144.7862 0)
@@ -4997,7 +4997,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C51") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5011,7 +5011,7 @@
   (symbol (lib_id "power:GND") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca4bf424-9b4b-4820-81c0-5e9d655efb0e)
-    (property "Reference" "#PWR0107" (at 74.93 158.75 0)
+    (property "Reference" "#PWR015" (at 74.93 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.9301 156.21 90)
@@ -5027,7 +5027,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5041,7 +5041,7 @@
   (symbol (lib_id "power:GND") (at 34.29 87.63 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb01a991-15f8-4543-b123-2a9eee360acd)
-    (property "Reference" "#PWR095" (at 27.94 87.63 0)
+    (property "Reference" "#PWR03" (at 27.94 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 87.6299 90)
@@ -5057,7 +5057,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5071,7 +5071,7 @@
   (symbol (lib_id "power:GND") (at 69.85 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dade8cf3-ea60-4875-8285-a996aff8e003)
-    (property "Reference" "#PWR0105" (at 69.85 158.75 0)
+    (property "Reference" "#PWR013" (at 69.85 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.8501 156.21 90)
@@ -5087,7 +5087,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5101,7 +5101,7 @@
   (symbol (lib_id "power:GND") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8726929-44cf-4949-b22f-e2a51078a72f)
-    (property "Reference" "#PWR0104" (at 67.31 158.75 0)
+    (property "Reference" "#PWR012" (at 67.31 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.3101 156.21 90)
@@ -5117,7 +5117,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5131,7 +5131,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 69.85 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29ebdf1-83e6-47a0-89bb-b80f89f5d0d3)
-    (property "Reference" "TP12" (at 69.85 147.32 90)
+    (property "Reference" "TP7" (at 69.85 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 69.85 142.24 90)
@@ -5147,7 +5147,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP12") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5161,7 +5161,7 @@
   (symbol (lib_id "power:GND") (at 152.4 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f305cd18-184b-4977-811c-9fa0e48af886)
-    (property "Reference" "#PWR0114" (at 152.4 62.23 0)
+    (property "Reference" "#PWR024" (at 152.4 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 60.96 0)
@@ -5177,7 +5177,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5228,7 +5228,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 50.8 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f84296d0-2881-4d3a-8d1e-7e495ea261d6)
-    (property "Reference" "C45" (at 54.61 34.6709 0)
+    (property "Reference" "C2" (at 54.61 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 54.61 37.2109 0)
@@ -5245,7 +5245,7 @@
     (instances
       (project "EuroMeasure-Module"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C45") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
