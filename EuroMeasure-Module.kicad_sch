@@ -48,7 +48,6 @@
 
   (bus_alias "ADC_ISO" (members "RESET" "DRDY" "CS" "SCLK" "DIN" "DOUT" "CLK"))
 
-
   (no_connect (at 20.32 60.96) (uuid 07e9f7a5-b0d5-4330-b8f4-de7ac8bd7564))
   (no_connect (at 20.32 53.34) (uuid 1449e61e-211b-475a-8bf9-66d035220d28))
   (no_connect (at 20.32 81.28) (uuid 15c86ac4-1528-4d9d-85b7-8827f7d33fec))
@@ -219,7 +218,7 @@
     (property "Reference" "TP906" (at 60.96 25.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SPI1_SCK" (at 69.85 25.4 90)
+    (property "Value" "SPI1_SCK" (at 67.31 25.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "MEMS_Custom:TestPoint_Pad_D1.0mm" (at 55.88 30.48 0)
@@ -255,7 +254,7 @@
     (property "Reference" "TP907" (at 60.96 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "SPI1_MISO" (at 68.58 27.94 90)
+    (property "Value" "SPI1_MISO" (at 67.31 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "MEMS_Custom:TestPoint_Pad_D1.0mm" (at 55.88 22.86 0)
@@ -292,7 +291,7 @@
     (property "Sheetname" "EuroMeasure" (at 20.32 19.6084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "EuroMeasure.kicad_sch" (at 20.32 102.1846 0)
+    (property "Sheetfile" "../EuroMeasure-Module/EuroMeasure.kicad_sch" (at 20.32 102.1846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "SPI1_SCK" bidirectional (at 53.34 25.4 0)
