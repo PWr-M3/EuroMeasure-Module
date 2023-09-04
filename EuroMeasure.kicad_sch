@@ -1792,6 +1792,7 @@
     )
   )
 
+
   (junction (at 120.65 181.61) (diameter 0) (color 0 0 0 0)
     (uuid 018d3108-7d22-4d28-a816-3354196f8513)
   )
@@ -3051,9 +3052,9 @@
     (pin "1" (uuid 9a5a20d5-c9bd-42f8-9633-db38befcb29b))
     (pin "2" (uuid e44d5aa1-7383-4b34-9aef-b0d9ca3c5012))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C10") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C42") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3081,9 +3082,9 @@
     )
     (pin "1" (uuid 8a298459-e3a4-4255-b8e1-d1399b467396))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR09") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR066") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3111,8 +3112,8 @@
     )
     (pin "1" (uuid ae45a5c0-4a15-4eb3-9c13-4425f0053aeb))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "TP10") (unit 1)
         )
       )
@@ -3148,9 +3149,9 @@
     (pin "1" (uuid a7be2b1e-0d4b-481e-b409-ed8444bf3877))
     (pin "2" (uuid f7e3983e-b309-4ac9-8b87-59c53b42de70))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "SW2") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "SW1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3178,9 +3179,9 @@
     )
     (pin "1" (uuid cae73425-198d-4b64-99f2-25675c97cc12))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP6") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "TP11") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3208,9 +3209,9 @@
     )
     (pin "1" (uuid ec180750-d6e1-41f8-9a2b-fbd02cb7fe33))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR018") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR075") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3238,9 +3239,9 @@
     )
     (pin "1" (uuid 005d2bec-f2b1-43a6-b616-ac27605ba394))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR010") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR067") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3277,8 +3278,8 @@
     (pin "3" (uuid 6be4cc02-1bdd-4e47-a391-6a2f92c6ec43))
     (pin "4" (uuid 199ccd66-e231-423a-bf83-e3587ce0f13e))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "Y1") (unit 1)
         )
       )
@@ -3311,9 +3312,9 @@
     (pin "1" (uuid 8fa085f5-2e43-4a9e-a904-c85f4c63488e))
     (pin "2" (uuid 6e6ae8f6-42e5-47d3-a6e3-a19946c7079e))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R2") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "R30") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3341,9 +3342,9 @@
     )
     (pin "1" (uuid e7a92328-bde2-443e-b867-a2e770a64d4a))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR01") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR058") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3378,8 +3379,8 @@
     (pin "1" (uuid d9617cef-de2d-4b39-93cf-2f3e0d67db68))
     (pin "2" (uuid 81838f41-4a96-4f26-9772-35c22032c15d))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "F1") (unit 1)
         )
       )
@@ -3409,9 +3410,9 @@
     (pin "1" (uuid 5fad9076-881e-4787-aef9-00c92ee1ca9a))
     (pin "2" (uuid 67a8f402-5e80-4ba6-a54a-d6c9563f6757))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C5") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3443,9 +3444,9 @@
     (pin "1" (uuid 6e664a26-06db-47f7-a6be-d380b9040d62))
     (pin "2" (uuid 400f093e-09d2-4b8d-8240-608afeeff0b0))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R1") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "R31") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3473,9 +3474,9 @@
     )
     (pin "1" (uuid 83b3e7ff-d100-4782-afad-b0703b9c32e7))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR08") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR065") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3504,9 +3505,9 @@
     (pin "1" (uuid 16a62561-1332-4333-a0cf-dd55b1805874))
     (pin "2" (uuid 2c4ce6ae-6913-4c10-84ac-3ec6b2d9db91))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R4") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "R10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3534,9 +3535,9 @@
     )
     (pin "1" (uuid 1e16d9c5-65b0-4264-abed-9daf659c98fa))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR027") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR084") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3572,8 +3573,8 @@
     (pin "2" (uuid a796c06c-1ac1-41f0-b476-40d52b5be0c0))
     (pin "3" (uuid a59bab41-f780-4796-a211-e6077bcb76a8))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "U1") (unit 1)
         )
       )
@@ -3606,9 +3607,9 @@
     (pin "1" (uuid c623f174-419d-4ec5-b48b-f92164d039e3))
     (pin "2" (uuid 81f14bf2-5130-411e-a16f-0f108727ab1b))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C7") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C23") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3636,9 +3637,9 @@
     )
     (pin "1" (uuid 03385900-bcd8-4be2-8a01-2e29d110745f))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR026") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR083") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3666,9 +3667,9 @@
     )
     (pin "1" (uuid 0820ab82-71e6-49cd-9637-bfe2d12bf7ba))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR030") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR087") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3696,9 +3697,9 @@
     )
     (pin "1" (uuid 9c26dddb-714d-4495-9b54-f539c973a033))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR025") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR082") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3726,9 +3727,9 @@
     )
     (pin "1" (uuid 6c685c4c-4b37-42e0-a0e4-8c4eb8ba5aa8))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR016") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR073") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3760,9 +3761,9 @@
     (pin "1" (uuid 184e1e78-104f-4beb-ba6c-6e61c8330f13))
     (pin "2" (uuid 3daacb0a-3877-45f3-bd97-6817115ee22a))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP4") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "JP1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3803,9 +3804,9 @@
     (pin "1" (uuid 100e5cad-eca3-4fdc-89fe-6929494ae199))
     (pin "2" (uuid 2ddb06ed-6bcc-4cb3-a499-3e4e2b1a1309))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "D1") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "D10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3833,9 +3834,9 @@
     )
     (pin "1" (uuid a571066f-528b-4cc7-b415-e2b61acc53f4))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR023") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR080") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3863,9 +3864,9 @@
     )
     (pin "1" (uuid c7f87634-d37c-46ff-a00c-efa2844af91c))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR020") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR077") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3894,9 +3895,9 @@
     (pin "1" (uuid be7b6340-abc4-48a3-af7d-892308cc5e6f))
     (pin "2" (uuid 54a8f67c-ad0d-4a0b-8c7a-24011e2160b3))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "R3") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "R50") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3937,9 +3938,9 @@
     (pin "7" (uuid 657f975d-031b-418b-893b-0f649b9d24f6))
     (pin "8" (uuid aae6154e-de3a-4e3e-a422-f85cb4f2b2e6))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "SW1") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "SW2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3968,9 +3969,9 @@
     (pin "1" (uuid 2a3a9960-afc6-4803-b6d8-d5862608e641))
     (pin "2" (uuid 6a64b97d-4fac-4be3-a237-9e2dd3c7bb15))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C1") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3998,9 +3999,9 @@
     )
     (pin "1" (uuid 49968643-c6cc-41de-973e-6bc3a81c2fc0))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR017") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR074") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4028,9 +4029,9 @@
     )
     (pin "1" (uuid 2005154e-ae7e-4c9e-b8b6-b63bd52e89b4))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP8") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "TP18") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4059,9 +4060,9 @@
     (pin "1" (uuid 4fe09676-5b89-44b0-aa53-a212980219bf))
     (pin "2" (uuid fdfcf126-ef69-4f90-b574-21f342fb6914))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C3") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C13") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4089,9 +4090,9 @@
     )
     (pin "1" (uuid 6917a612-0800-4731-8e82-e8aadeee288a))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR05") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR062") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4119,9 +4120,9 @@
     )
     (pin "1" (uuid 292a0856-be37-4754-ac1e-84c7c49284f3))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR019") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR076") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4150,9 +4151,9 @@
     (pin "1" (uuid 60172d9a-03fd-4a88-90c5-88573406fda6))
     (pin "2" (uuid c843c6ea-b3e4-497d-8d37-724a4c63535e))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C4") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C12") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4184,9 +4185,9 @@
     (pin "1" (uuid 1cdfbd84-802a-4345-a66f-110cb90ac300))
     (pin "2" (uuid f73d3c08-4bd8-4fde-ada0-167d1ef9c2cc))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP3") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "JP2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4215,9 +4216,9 @@
     (pin "1" (uuid 5d015a34-cd6a-49b0-b775-3418c9fdbaa8))
     (pin "2" (uuid 1e6261dd-04c2-404b-9e47-3ac2539289f1))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C8") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C41") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4245,9 +4246,9 @@
     )
     (pin "1" (uuid 9748b791-8779-4da1-810e-1df882552448))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR07") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR064") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4279,9 +4280,9 @@
     (pin "1" (uuid 07cdaf35-13a3-4de1-ae2b-1b17e41aa28a))
     (pin "2" (uuid 495128c3-ca19-452d-9980-22e6d54e217f))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP2") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "JP3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4309,9 +4310,9 @@
     )
     (pin "1" (uuid 7f349034-7b0e-46a3-ad2e-d37613ab1d78))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR06") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR063") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4339,9 +4340,9 @@
     )
     (pin "1" (uuid 568c1f4c-1131-4844-9037-9d1719b32f1a))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR021") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR078") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4369,9 +4370,9 @@
     )
     (pin "1" (uuid a2154cc6-4ddb-4192-8368-437130e67c4a))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#FLG01") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#FLG05") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4402,9 +4403,9 @@
     )
     (pin "1" (uuid 53a10df6-b489-405c-aec0-8f545cf4f554))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR04") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR061") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4439,9 +4440,9 @@
     (pin "1" (uuid 7c0d526b-bd8e-4c26-b88c-791c08c63094))
     (pin "2" (uuid 6e44f06a-8a17-40cb-9b7e-be66a9ba7d6e))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "D2") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "D1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4508,8 +4509,8 @@
     (pin "D3" (uuid e18f27ea-15a3-48f3-afda-39d7f8247400))
     (pin "D4" (uuid 5e6a157b-1bcf-47ee-9858-fd28ee500459))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "B1") (unit 2)
         )
       )
@@ -4538,9 +4539,9 @@
     )
     (pin "1" (uuid c8810a8e-1eb3-4655-9c00-376cff4405ae))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR011") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR068") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4572,9 +4573,9 @@
     (pin "1" (uuid ae8c9ca5-d7d5-4719-a1dd-b92dd0b1ffab))
     (pin "2" (uuid f4291307-3fd3-4095-bc32-9bb3b4d217a3))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "JP1") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "JP4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4606,9 +4607,9 @@
     (pin "1" (uuid f78372c2-dc0e-46cc-901e-9311787bbd44))
     (pin "2" (uuid 90228213-0886-46f6-a59e-61c5209c1398))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C6") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C22") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4636,9 +4637,9 @@
     )
     (pin "1" (uuid cc660677-e0ff-42b7-b6e3-35ac7b2d0c4f))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR02") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR059") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4666,9 +4667,9 @@
     )
     (pin "1" (uuid 5b1a1e59-b20d-476e-88f3-6e4321be670a))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR014") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR071") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4696,9 +4697,9 @@
     )
     (pin "1" (uuid 9ecdd6a8-c817-4328-ac5a-a92cd33b3a25))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR028") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR085") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4726,9 +4727,9 @@
     )
     (pin "1" (uuid e396c199-2d7d-4481-8289-e751d663d8c8))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR022") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR079") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4756,9 +4757,9 @@
     )
     (pin "1" (uuid 2fb69dea-722d-467e-af97-c4b482ca89fd))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP9") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "TP8") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4786,9 +4787,9 @@
     )
     (pin "1" (uuid 81f12034-8778-4345-9bb8-e79f8ce6ba17))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR029") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR086") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4855,8 +4856,8 @@
     (pin "D3" (uuid 66592d18-5621-4f77-997e-e7dcea48e8b6))
     (pin "D4" (uuid 0cdf99b0-cbb1-4525-92ff-36cd7a5f384b))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "B1") (unit 1)
         )
       )
@@ -4885,9 +4886,9 @@
     )
     (pin "1" (uuid 8a5f2a57-d006-4868-a7c8-25d300116919))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#FLG02") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#FLG06") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4971,9 +4972,9 @@
     (pin "8" (uuid 6d63661f-9e89-4bc1-bb9f-c495c3915ff7))
     (pin "9" (uuid d80bc2e9-aa1b-4173-975f-6e84f0cd2329))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "U2") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "U4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5002,9 +5003,9 @@
     (pin "1" (uuid df7d422c-fc51-4ff0-b964-5aeb62133873))
     (pin "2" (uuid c25da916-6283-4e88-a52e-123aafa70a4f))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C9") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C43") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5032,9 +5033,9 @@
     )
     (pin "1" (uuid 2a8347c0-7e5c-40ec-8cba-5cb6c7d59a5e))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR015") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR072") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5062,9 +5063,9 @@
     )
     (pin "1" (uuid 3c45e0ec-0a16-46c5-9693-0a02b1ecbf25))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR03") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR060") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5092,9 +5093,9 @@
     )
     (pin "1" (uuid 98f31de9-f0b2-49d5-bafc-31ca33dc7c6c))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR013") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR070") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5122,9 +5123,9 @@
     )
     (pin "1" (uuid 0c9a0896-5267-43a5-b489-26d1c5432037))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR012") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR069") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5152,9 +5153,9 @@
     )
     (pin "1" (uuid 6fd6687d-994e-4f5e-b20f-3d59df350d92))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "TP7") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "TP14") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5182,9 +5183,9 @@
     )
     (pin "1" (uuid 6a8526d5-537f-4e21-ab3f-1af9949434a0))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "#PWR024") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "#PWR081") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5219,8 +5220,8 @@
     (pin "1" (uuid 5da1e11c-18f7-4a00-ac03-a501d0181ced))
     (pin "2" (uuid a8d83584-2ec6-4eeb-aa1b-152ca8ae9cda))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
           (reference "L1") (unit 1)
         )
       )
@@ -5250,9 +5251,9 @@
     (pin "1" (uuid d85ca385-a80c-455a-85ec-768808536b38))
     (pin "2" (uuid 7229a824-5f47-44c8-9503-4e3a277159fc))
     (instances
-      (project "EuroMeasure-Module"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
-          (reference "C2") (unit 1)
+      (project "EuroMeasure-HVPSU"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
+          (reference "C5") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
