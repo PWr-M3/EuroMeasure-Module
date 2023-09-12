@@ -817,7 +817,7 @@
       (pts (xy 63.91 164.35) (xy 63.91 35.65))
       (height -4.91)
       (orientation 1)
-      (gr_text "128.7 mm" (at 59 100 90) (layer "User.7") (tstamp 593c1a89-e2d0-4e9d-9f64-f618ddcb55e6)
+      (gr_text "128,7 mm" (at 59 100 90) (layer "User.7") (tstamp 593c1a89-e2d0-4e9d-9f64-f618ddcb55e6)
         (effects (font (size 2 2) (thickness 0.15)))
       )
       (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4) suppress_zeroes)

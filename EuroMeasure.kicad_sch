@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "EuroMeasure-HVPSU")
+    (title "EuroMeasure-Generator")
     (rev "2.0")
   )
 
@@ -258,10 +258,10 @@
       (property "Datasheet" "https://www.mouser.pl/datasheet/2/737/4684_WS2812B_2020_V1_3_EN-1900866.pdf" (at -5.08 20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "4680" (at -15.24 12.7 0)
+      (property "MPN" "4680+61201021721+61201021721+61201021721+970130324+970130324" (at -15.24 12.7 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Mouser" "485-4684" (at -7.62 25.4 0)
+      (property "Mouser" "485-4684+710-61201021721+710-61201021721+710-6120102172+710-970130324+710-970130324" (at -7.62 25.4 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (at 0 0 0)
@@ -448,10 +448,10 @@
       (property "Datasheet" "https://www.mouser.pl/datasheet/2/737/4684_WS2812B_2020_V1_3_EN-1900866.pdf" (at -5.08 20.32 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "MPN" "4680" (at -15.24 12.7 0)
+      (property "MPN" "4680+61201021721+61201021721+61201021721+970130324+970130324" (at -15.24 12.7 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Mouser" "485-4684" (at -7.62 25.4 0)
+      (property "Mouser" "485-4684+710-61201021721+710-61201021721+710-6120102172+710-970130324+710-970130324" (at -7.62 25.4 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (at 0 0 0)
@@ -1792,7 +1792,6 @@
     )
   )
 
-
   (junction (at 120.65 181.61) (diameter 0) (color 0 0 0 0)
     (uuid 018d3108-7d22-4d28-a816-3354196f8513)
   )
@@ -3037,7 +3036,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 016ac401-b234-499b-a981-3b09d024d333)
-    (property "Reference" "C10" (at 181.61 46.99 0)
+    (property "Reference" "C19" (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 181.61 49.53 0)
@@ -3049,8 +3048,8 @@
     (property "Datasheet" "~" (at 187.96 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a5a20d5-c9bd-42f8-9633-db38befcb29b))
-    (pin "2" (uuid e44d5aa1-7383-4b34-9aef-b0d9ca3c5012))
+    (pin "1" (uuid 8a527c39-7b70-49a8-a224-f04f43a6a3e5))
+    (pin "2" (uuid 21275119-1b78-4778-97e4-e35a0fa43c77))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3059,7 +3058,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C56") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -3068,7 +3067,7 @@
   (symbol (lib_id "power:GND") (at 58.42 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05084350-4366-48f5-8c15-f4d3ca94da5c)
-    (property "Reference" "#PWR09" (at 64.77 95.25 0)
+    (property "Reference" "#PWR0913" (at 64.77 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 95.2499 90)
@@ -3080,11 +3079,11 @@
     (property "Datasheet" "" (at 58.42 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a298459-e3a4-4255-b8e1-d1399b467396))
+    (pin "1" (uuid b88c42e8-107f-4896-ac4c-d3484215879d))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR0913") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3098,7 +3097,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 87.63 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0f5f1e-8ca1-4ece-a836-cb386070436f)
-    (property "Reference" "TP10" (at 86.36 24.13 0)
+    (property "Reference" "TP2" (at 86.36 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V3" (at 86.36 21.59 0)
@@ -3110,7 +3109,7 @@
     (property "Datasheet" "~" (at 92.71 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae45a5c0-4a15-4eb3-9c13-4425f0053aeb))
+    (pin "1" (uuid a1ba9a08-8410-4f7e-b8d7-001497699e63))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3119,7 +3118,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "TP6") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -3128,7 +3127,7 @@
   (symbol (lib_id "MEMS_Electromechanical:SW_Push_Tact_B3S-1000") (at 160.02 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10bbdfed-cebc-45fe-99e6-ae080959c8f4)
-    (property "Reference" "SW2" (at 161.29 48.895 90)
+    (property "Reference" "SW1" (at 161.29 48.895 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RST" (at 161.29 51.435 90)
@@ -3146,8 +3145,8 @@
     (property "MPN" "B3S-1000" (at 160.02 49.53 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid a7be2b1e-0d4b-481e-b409-ed8444bf3877))
-    (pin "2" (uuid f7e3983e-b309-4ac9-8b87-59c53b42de70))
+    (pin "1" (uuid 23ebeee2-7266-462e-bccd-c1896e077d44))
+    (pin "2" (uuid 4c1f3644-56c2-4870-b7f5-4dedf04efae9))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3165,7 +3164,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11748897-518b-4e63-9f58-24c519aa6562)
-    (property "Reference" "TP6" (at 67.31 147.32 90)
+    (property "Reference" "TP4" (at 67.31 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 67.31 142.24 90)
@@ -3177,7 +3176,7 @@
     (property "Datasheet" "~" (at 72.39 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cae73425-198d-4b64-99f2-25675c97cc12))
+    (pin "1" (uuid 3ec0f71d-2c7d-47dc-a782-a8b73bf160c8))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3186,7 +3185,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "TP15") (unit 1)
+          (reference "TP16") (unit 1)
         )
       )
     )
@@ -3195,7 +3194,7 @@
   (symbol (lib_id "power:+3.3V") (at 96.52 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18e8cbe7-7833-4c36-af5d-7ad52dd3a43e)
-    (property "Reference" "#PWR018" (at 96.52 31.75 0)
+    (property "Reference" "#PWR0925" (at 96.52 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 96.52 22.86 0)
@@ -3207,11 +3206,11 @@
     (property "Datasheet" "" (at 96.52 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec180750-d6e1-41f8-9a2b-fbd02cb7fe33))
+    (pin "1" (uuid b8e376bd-f793-4108-a040-6349b2f6f006))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0925") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3225,7 +3224,7 @@
   (symbol (lib_id "power:GND") (at 63.5 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ddbf1a1-989b-4a2f-8823-5a8196c14cbe)
-    (property "Reference" "#PWR010" (at 69.85 110.49 0)
+    (property "Reference" "#PWR0917" (at 69.85 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 110.4899 90)
@@ -3237,11 +3236,11 @@
     (property "Datasheet" "" (at 63.5 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 005d2bec-f2b1-43a6-b616-ac27605ba394))
+    (pin "1" (uuid 928ba79a-8be6-4765-aa6b-807dcd773f6d))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0917") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3273,10 +3272,10 @@
     (property "MPN" "ECS-160-8-36CKM-TR3" (at 120.65 175.26 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 85034481-02a4-4712-bc72-79f1d30e7f24))
-    (pin "2" (uuid 42a6b86f-458c-4f95-a254-a5ed1dbf93ad))
-    (pin "3" (uuid 6be4cc02-1bdd-4e47-a391-6a2f92c6ec43))
-    (pin "4" (uuid 199ccd66-e231-423a-bf83-e3587ce0f13e))
+    (pin "1" (uuid c5f503c6-93ba-4aee-a372-85e08e3205e2))
+    (pin "2" (uuid 058d8736-54fe-4335-89b6-5fb515c6e1fa))
+    (pin "3" (uuid 7d3808f0-a9ab-4b2f-869d-413af2130c92))
+    (pin "4" (uuid 4435fb63-2926-40ce-a7e4-8006ae3c9bd2))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3294,7 +3293,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25122625-eb80-429a-b437-11ed746af1ca)
-    (property "Reference" "R2" (at 64.77 175.26 90)
+    (property "Reference" "R7" (at 64.77 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 177.8 90)
@@ -3309,8 +3308,8 @@
     (property "DNP" "DNP" (at 64.77 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 8fa085f5-2e43-4a9e-a904-c85f4c63488e))
-    (pin "2" (uuid 6e6ae8f6-42e5-47d3-a6e3-a19946c7079e))
+    (pin "1" (uuid d9b6bc3d-5463-4802-8a98-f432cddf02c0))
+    (pin "2" (uuid 9b3afa2a-a0f6-4220-9cc2-4bc98c67f4d9))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3319,7 +3318,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "R43") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -3328,7 +3327,7 @@
   (symbol (lib_id "power:+3.3V") (at 29.21 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2701844a-60ff-45e2-9877-dd0f77bdf4b3)
-    (property "Reference" "#PWR01" (at 33.02 118.11 0)
+    (property "Reference" "#PWR0905" (at 33.02 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 24.13 118.11 0)
@@ -3340,11 +3339,11 @@
     (property "Datasheet" "" (at 29.21 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7a92328-bde2-443e-b867-a2e770a64d4a))
+    (pin "1" (uuid 265c1b67-26c7-442c-8bb1-397e87688545))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR0905") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3376,8 +3375,8 @@
     (property "Mouser" "576-1206L050/15YR" (at 29.21 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d9617cef-de2d-4b39-93cf-2f3e0d67db68))
-    (pin "2" (uuid 81838f41-4a96-4f26-9772-35c22032c15d))
+    (pin "1" (uuid aa7ac83f-0ebe-42f2-8654-4fd9a2c65d7e))
+    (pin "2" (uuid e38d8776-e46b-4323-811d-61407d15b379))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3395,7 +3394,7 @@
   (symbol (lib_id "Device:C") (at 104.14 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bc24c7d-93ba-4fb5-b153-8cc92da1c6a9)
-    (property "Reference" "C5" (at 107.95 153.6699 0)
+    (property "Reference" "C1" (at 107.95 153.6699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 107.95 156.2099 0)
@@ -3407,8 +3406,8 @@
     (property "Datasheet" "~" (at 104.14 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fad9076-881e-4787-aef9-00c92ee1ca9a))
-    (pin "2" (uuid 67a8f402-5e80-4ba6-a54a-d6c9563f6757))
+    (pin "1" (uuid 68c9666f-63ae-4c87-9594-a380033cecee))
+    (pin "2" (uuid cff02db4-39b4-4750-9e28-88b7ca2412e3))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3426,7 +3425,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ed469c4-9c9e-444d-b1d5-bbebca6b5235)
-    (property "Reference" "R1" (at 64.77 165.1 90)
+    (property "Reference" "R4" (at 64.77 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 167.64 90)
@@ -3441,8 +3440,8 @@
     (property "DNP" "DNP" (at 64.77 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 6e664a26-06db-47f7-a6be-d380b9040d62))
-    (pin "2" (uuid 400f093e-09d2-4b8d-8240-608afeeff0b0))
+    (pin "1" (uuid ecc0a929-1573-41c4-b76e-be7560c49257))
+    (pin "2" (uuid 70b5be5d-8445-4856-89f4-9ac528e1ad57))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3451,7 +3450,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "R42") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3460,7 +3459,7 @@
   (symbol (lib_id "power:GND") (at 58.42 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 378a9bce-8035-4dfc-8b24-d880842a0d53)
-    (property "Reference" "#PWR08" (at 64.77 87.63 0)
+    (property "Reference" "#PWR0912" (at 64.77 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 87.6299 90)
@@ -3472,11 +3471,11 @@
     (property "Datasheet" "" (at 58.42 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83b3e7ff-d100-4782-afad-b0703b9c32e7))
+    (pin "1" (uuid 88f4cfc7-863a-4123-84dd-c83b68e34526))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR0912") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3490,7 +3489,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 140.97 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38ba8e2b-ad41-4e55-95e1-5b2b031eb2ac)
-    (property "Reference" "R4" (at 241.3 139.7 0)
+    (property "Reference" "R3" (at 241.3 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 241.3 142.24 0)
@@ -3502,17 +3501,17 @@
     (property "Datasheet" "~" (at 236.22 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16a62561-1332-4333-a0cf-dd55b1805874))
-    (pin "2" (uuid 2c4ce6ae-6913-4c10-84ac-3ec6b2d9db91))
+    (pin "1" (uuid d6283795-e3fb-4b8e-905c-547ac7ca2fea))
+    (pin "2" (uuid 34ad1139-16f0-481c-9d02-42295f165279))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "R41") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3521,7 +3520,7 @@
   (symbol (lib_id "power:+3.3V") (at 175.26 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bb6600f-181d-4df7-9ef3-7caaddceff51)
-    (property "Reference" "#PWR027" (at 175.26 45.72 0)
+    (property "Reference" "#PWR0932" (at 175.26 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 175.26 36.83 0)
@@ -3533,11 +3532,11 @@
     (property "Datasheet" "" (at 175.26 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e16d9c5-65b0-4264-abed-9daf659c98fa))
+    (pin "1" (uuid bc006896-977d-4874-9ed7-aab3869b5c24))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0932") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3551,7 +3550,7 @@
   (symbol (lib_id "MEMS_IC:AZ1117IH-3.3TRG1-SOT223") (at 66.04 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42f0ec56-ce23-4d24-b8ad-3ef562cb0837)
-    (property "Reference" "U1" (at 66.04 24.13 0)
+    (property "Reference" "U2" (at 66.04 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3V3" (at 66.04 26.67 0)
@@ -3569,9 +3568,9 @@
     (property "Mouser" "621-AZ1117IH-3.3TRG1" (at 66.04 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1bac616-602d-4c33-8e6a-a2f612dae75e))
-    (pin "2" (uuid a796c06c-1ac1-41f0-b476-40d52b5be0c0))
-    (pin "3" (uuid a59bab41-f780-4796-a211-e6077bcb76a8))
+    (pin "1" (uuid bd62eaac-0323-479b-b093-7944b671983c))
+    (pin "2" (uuid 4b602687-9933-41c5-8160-3cdab83fe371))
+    (pin "3" (uuid 2ffa159e-471f-4b77-9b41-e92cedaea6bc))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3580,7 +3579,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "U15") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3589,7 +3588,7 @@
   (symbol (lib_id "Device:C_Small") (at 127 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47a242c2-4573-408d-9077-c986456345ed)
-    (property "Reference" "C7" (at 129.54 177.8 0)
+    (property "Reference" "C17" (at 129.54 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 129.54 180.3338 0)
@@ -3604,17 +3603,17 @@
     (property "DNP" "DNP" (at 130.81 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid c623f174-419d-4ec5-b48b-f92164d039e3))
-    (pin "2" (uuid 81f14bf2-5130-411e-a16f-0f108727ab1b))
+    (pin "1" (uuid b73f112e-6cad-45c2-b87f-a5565db6f775))
+    (pin "2" (uuid 6e4e2958-4b0b-477d-8c84-6062b2e747c4))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C23") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C52") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -3623,7 +3622,7 @@
   (symbol (lib_id "power:GND") (at 165.1 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a61e40d-a97c-4cd2-b6c1-5191eb04c036)
-    (property "Reference" "#PWR026" (at 165.1 153.67 0)
+    (property "Reference" "#PWR0931" (at 165.1 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 147.32 0)
@@ -3635,11 +3634,11 @@
     (property "Datasheet" "" (at 165.1 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03385900-bcd8-4be2-8a01-2e29d110745f))
+    (pin "1" (uuid 6f404b86-a701-48c6-bde6-905851b32ca2))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0931") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3653,7 +3652,7 @@
   (symbol (lib_id "power:GND") (at 236.22 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c2240b7-f6d8-42ad-a0c8-7772e4b60d80)
-    (property "Reference" "#PWR030" (at 236.22 160.02 0)
+    (property "Reference" "#PWR0935" (at 236.22 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 158.75 0)
@@ -3665,11 +3664,11 @@
     (property "Datasheet" "" (at 236.22 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0820ab82-71e6-49cd-9637-bfe2d12bf7ba))
+    (pin "1" (uuid 72ef86d1-345e-4c28-99ee-9be15f61fdd0))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0935") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3683,7 +3682,7 @@
   (symbol (lib_id "power:GND") (at 160.02 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c73004b-2020-4280-ab0a-20105fde5f72)
-    (property "Reference" "#PWR025" (at 160.02 62.23 0)
+    (property "Reference" "#PWR0930" (at 160.02 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 60.96 0)
@@ -3695,11 +3694,11 @@
     (property "Datasheet" "" (at 160.02 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9c26dddb-714d-4495-9b54-f539c973a033))
+    (pin "1" (uuid 6f2e68eb-cc23-43ac-8233-41b2e8fe621c))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0930") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3713,7 +3712,7 @@
   (symbol (lib_id "power:GND") (at 80.01 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ed2c8ae-1bbf-410c-8bb2-53ee74f5bb30)
-    (property "Reference" "#PWR016" (at 80.01 49.53 0)
+    (property "Reference" "#PWR0923" (at 80.01 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 48.26 0)
@@ -3725,11 +3724,11 @@
     (property "Datasheet" "" (at 80.01 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6c685c4c-4b37-42e0-a0e4-8c4eb8ba5aa8))
+    (pin "1" (uuid 93dff35a-c75b-4d8a-a080-8a4a604912ae))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0923") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3743,7 +3742,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518ff594-9a75-42bc-bff1-d184cb94f219)
-    (property "Reference" "JP4" (at 50.8 187.96 0)
+    (property "Reference" "JP9" (at 50.8 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR3" (at 55.88 187.96 0)
@@ -3758,17 +3757,17 @@
     (property "MPN" "NO_MPN" (at 36.83 192.532 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 184e1e78-104f-4beb-ba6c-6e61c8330f13))
-    (pin "2" (uuid 3daacb0a-3877-45f3-bd97-6817115ee22a))
+    (pin "1" (uuid c54f2793-1244-4184-8ccb-f31f01c791f5))
+    (pin "2" (uuid 4b423867-6028-4f43-b5e8-677f9d5dd312))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP1") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "JP5") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -3777,7 +3776,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:D_1N4148WS-SOD323") (at 147.32 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531f9032-c386-4efb-8edc-54e94344e912)
-    (property "Reference" "D1" (at 147.32 38.1 0)
+    (property "Reference" "D6" (at 147.32 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N4148" (at 147.32 40.64 0)
@@ -3801,8 +3800,8 @@
     (property "MPN" "1N4148WS" (at 147.32 43.18 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 100e5cad-eca3-4fdc-89fe-6929494ae199))
-    (pin "2" (uuid 2ddb06ed-6bcc-4cb3-a499-3e4e2b1a1309))
+    (pin "1" (uuid 1fc87aa4-984e-405f-a20d-2eab2015f6af))
+    (pin "2" (uuid 827fb576-4092-47a6-86a4-098da40610b6))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3820,7 +3819,7 @@
   (symbol (lib_id "power:GND") (at 127 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a18a64c-1351-4c33-8537-9ea80f418330)
-    (property "Reference" "#PWR023" (at 127 189.23 0)
+    (property "Reference" "#PWR0928" (at 127 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 186.69 0)
@@ -3832,11 +3831,11 @@
     (property "Datasheet" "" (at 127 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a571066f-528b-4cc7-b415-e2b61acc53f4))
+    (pin "1" (uuid 76c6cdd1-c970-4f9d-a9db-195fb5dfab16))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0928") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3850,7 +3849,7 @@
   (symbol (lib_id "power:GND") (at 110.49 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b95c9df-1da5-4949-b878-f8664b86b73b)
-    (property "Reference" "#PWR020" (at 110.49 189.23 0)
+    (property "Reference" "#PWR0926" (at 110.49 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 186.69 0)
@@ -3862,11 +3861,11 @@
     (property "Datasheet" "" (at 110.49 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7f87634-d37c-46ff-a00c-efa2844af91c))
+    (pin "1" (uuid 66c0d23d-4d15-442e-8c3f-28633910eb4b))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0926") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3880,7 +3879,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.35 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c23955d-5ae8-41c7-a930-29d8cd769e8f)
-    (property "Reference" "R3" (at 133.35 168.91 90)
+    (property "Reference" "R8" (at 133.35 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 133.35 171.45 90)
@@ -3892,17 +3891,17 @@
     (property "Datasheet" "~" (at 133.35 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid be7b6340-abc4-48a3-af7d-892308cc5e6f))
-    (pin "2" (uuid 54a8f67c-ad0d-4a0b-8c7a-24011e2160b3))
+    (pin "1" (uuid a5ca8578-4cec-4bee-866d-b870cf700a60))
+    (pin "2" (uuid 8c5253fc-2b84-4131-a9d3-3a542de345bd))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "R50") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "R44") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3911,7 +3910,7 @@
   (symbol (lib_id "MEMS_Electromechanical:SW_DIP_A6H-4101") (at 36.83 170.18 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ceb8ec9-e3fb-4e40-a1a7-7adc8e7ec1b8)
-    (property "Reference" "SW1" (at 36.83 161.29 0)
+    (property "Reference" "SW2" (at 36.83 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x04" (at 36.83 163.83 0)
@@ -3929,14 +3928,14 @@
     (property "MPN" "A6H-4101" (at 36.83 170.18 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid ec8dae56-97da-47ec-a742-3c55995d4d20))
-    (pin "2" (uuid 97f5039d-833b-4b7d-af07-e94eac18e0ff))
-    (pin "3" (uuid a3a4d1de-89a1-48fe-ab2f-42a6191e98f7))
-    (pin "4" (uuid 7ca314f6-7ee2-4b98-9f13-717109576ad4))
-    (pin "5" (uuid b8fdaa04-f27e-4f2d-af88-01deec101734))
-    (pin "6" (uuid d71d50c1-aaf5-4b3a-b46c-7ffb61379ec0))
-    (pin "7" (uuid 657f975d-031b-418b-893b-0f649b9d24f6))
-    (pin "8" (uuid aae6154e-de3a-4e3e-a422-f85cb4f2b2e6))
+    (pin "1" (uuid fa400230-bb38-4646-8bae-f9c01119481c))
+    (pin "2" (uuid 52191456-ece6-46f9-8dd4-12ce7f188156))
+    (pin "3" (uuid 42331548-9152-469e-a02a-c32df0c024d2))
+    (pin "4" (uuid 80c3da66-50f3-40cc-8a34-da211f51d4ae))
+    (pin "5" (uuid b3e99b7a-4a3b-4a3d-a506-41f006efd91d))
+    (pin "6" (uuid 01a64000-4a84-4df3-8519-7b9861bdca56))
+    (pin "7" (uuid 996aa302-7cae-4e6e-bd47-5c3e2bd5cd67))
+    (pin "8" (uuid 479f138c-9c3a-4fff-ad9c-33183e7860e0))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -3954,7 +3953,7 @@
   (symbol (lib_id "Device:C") (at 39.37 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e563339-2b5f-4d8f-aa87-3658975b0290)
-    (property "Reference" "C1" (at 43.18 35.5599 0)
+    (property "Reference" "C10" (at 43.18 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 43.18 38.0999 0)
@@ -3966,17 +3965,17 @@
     (property "Datasheet" "~" (at 39.37 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a3a9960-afc6-4803-b6d8-d5862608e641))
-    (pin "2" (uuid 6a64b97d-4fac-4be3-a237-9e2dd3c7bb15))
+    (pin "1" (uuid 8443e6d3-5608-4429-a6ab-9949475ccb9c))
+    (pin "2" (uuid 285e4926-da2a-4164-8e2d-1292c7d54e87))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C10") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C49") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3985,7 +3984,7 @@
   (symbol (lib_id "power:GND") (at 91.44 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61ca537e-1fe6-4d9a-9440-9923856ba155)
-    (property "Reference" "#PWR017" (at 91.44 49.53 0)
+    (property "Reference" "#PWR0924" (at 91.44 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 48.26 0)
@@ -3997,11 +3996,11 @@
     (property "Datasheet" "" (at 91.44 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49968643-c6cc-41de-973e-6bc3a81c2fc0))
+    (pin "1" (uuid ad028327-f855-40e4-b0e6-8c0f863b9871))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0924") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4015,7 +4014,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64356f7d-4eaa-492d-9296-bd11044887da)
-    (property "Reference" "TP8" (at 72.39 147.32 90)
+    (property "Reference" "TP1" (at 72.39 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 72.39 142.24 90)
@@ -4027,16 +4026,16 @@
     (property "Datasheet" "~" (at 77.47 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2005154e-ae7e-4c9e-b8b6-b63bd52e89b4))
+    (pin "1" (uuid c9fe7a86-5d87-4e10-835f-b577d91890ce))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP18") (unit 1)
+          (reference "TP14") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "TP5") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -4045,7 +4044,7 @@
   (symbol (lib_id "Device:C") (at 80.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64b171bc-c474-478f-a473-74dbc29e8941)
-    (property "Reference" "C3" (at 83.82 35.5599 0)
+    (property "Reference" "C8" (at 83.82 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 83.82 38.0999 0)
@@ -4057,17 +4056,17 @@
     (property "Datasheet" "~" (at 80.01 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fe09676-5b89-44b0-aa53-a212980219bf))
-    (pin "2" (uuid fdfcf126-ef69-4f90-b574-21f342fb6914))
+    (pin "1" (uuid 5ec488d9-5d46-4956-8d28-ce04de892fa3))
+    (pin "2" (uuid a068b456-3d93-46e3-abb0-420e1e66810e))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C13") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C50") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -4076,7 +4075,7 @@
   (symbol (lib_id "power:GND") (at 46.99 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 672b9d61-522a-4821-99c8-8844da1b7cf7)
-    (property "Reference" "#PWR05" (at 46.99 196.85 0)
+    (property "Reference" "#PWR0909" (at 46.99 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 195.58 0)
@@ -4088,11 +4087,11 @@
     (property "Datasheet" "" (at 46.99 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6917a612-0800-4731-8e82-e8aadeee288a))
+    (pin "1" (uuid 2eed43cf-3bdd-474f-bbcf-ad5ff88fc0d2))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0909") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4106,7 +4105,7 @@
   (symbol (lib_id "power:GND") (at 104.14 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697177d2-789f-423d-83da-6e091279a258)
-    (property "Reference" "#PWR019" (at 104.14 167.64 0)
+    (property "Reference" "#PWR0938" (at 104.14 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 166.37 0)
@@ -4118,11 +4117,11 @@
     (property "Datasheet" "" (at 104.14 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 292a0856-be37-4754-ac1e-84c7c49284f3))
+    (pin "1" (uuid 52966b6b-4a0b-43c9-a7a3-551ba85038b0))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0938") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4136,7 +4135,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 91.44 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d417f2a-653c-4e1b-950b-31de4b91925d)
-    (property "Reference" "C4" (at 95.25 34.6709 0)
+    (property "Reference" "C9" (at 95.25 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 95.25 37.2109 0)
@@ -4148,17 +4147,17 @@
     (property "Datasheet" "~" (at 91.44 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 60172d9a-03fd-4a88-90c5-88573406fda6))
-    (pin "2" (uuid c843c6ea-b3e4-497d-8d37-724a4c63535e))
+    (pin "1" (uuid 06ec6092-07e5-4179-bab3-32f4b9ac3cb7))
+    (pin "2" (uuid 509bb32f-95ae-4977-91b1-7ea687d4803c))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "C12") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C51") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -4167,7 +4166,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e5278f9-3031-4cab-ba03-bc8194c78393)
-    (property "Reference" "JP3" (at 50.8 185.42 0)
+    (property "Reference" "JP7" (at 50.8 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR2" (at 55.88 185.42 0)
@@ -4182,12 +4181,12 @@
     (property "MPN" "NO_MPN" (at 36.83 189.992 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1cdfbd84-802a-4345-a66f-110cb90ac300))
-    (pin "2" (uuid f73d3c08-4bd8-4fde-ada0-167d1ef9c2cc))
+    (pin "1" (uuid 038085fc-48a6-4009-9048-f2e160032b3c))
+    (pin "2" (uuid b82577f0-9e28-421d-b08d-5042feb7dc0f))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP2") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4201,7 +4200,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eaa2976-c191-4978-91f7-1f9a91f84a1d)
-    (property "Reference" "C8" (at 146.05 48.26 0)
+    (property "Reference" "C18" (at 146.05 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.05 50.8 0)
@@ -4213,8 +4212,8 @@
     (property "Datasheet" "~" (at 152.4 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d015a34-cd6a-49b0-b775-3418c9fdbaa8))
-    (pin "2" (uuid 1e6261dd-04c2-404b-9e47-3ac2539289f1))
+    (pin "1" (uuid 218840fa-60f7-488f-8a52-24073326498f))
+    (pin "2" (uuid 28d9ade6-4f9b-4005-bfcb-87f5185f82f4))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4232,7 +4231,7 @@
   (symbol (lib_id "power:GND") (at 58.42 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f12e433-0de5-43c1-a8ce-617e5cfbd66a)
-    (property "Reference" "#PWR07" (at 64.77 82.55 0)
+    (property "Reference" "#PWR0911" (at 64.77 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 82.5499 90)
@@ -4244,11 +4243,11 @@
     (property "Datasheet" "" (at 58.42 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9748b791-8779-4da1-810e-1df882552448))
+    (pin "1" (uuid 5e64eccd-5f20-439f-85c2-d8b4075f8138))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0911") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4262,7 +4261,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f8b09a8-8629-4e25-995f-10a67eeb6889)
-    (property "Reference" "JP2" (at 50.8 182.88 0)
+    (property "Reference" "JP10" (at 50.8 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR1" (at 55.88 182.88 0)
@@ -4277,17 +4276,17 @@
     (property "MPN" "NO_MPN" (at 36.83 187.452 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07cdaf35-13a3-4de1-ae2b-1b17e41aa28a))
-    (pin "2" (uuid 495128c3-ca19-452d-9980-22e6d54e217f))
+    (pin "1" (uuid 9e6f7b06-0f2d-458f-b96e-c043ce15fbfa))
+    (pin "2" (uuid 0eae0acb-c318-459a-9180-1a13427d87c0))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "JP3") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "JP6") (unit 1)
+          (reference "JP3") (unit 1)
         )
       )
     )
@@ -4296,7 +4295,7 @@
   (symbol (lib_id "power:GND") (at 50.8 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74c9b4c6-39fc-480b-891a-1fd9df87bd7b)
-    (property "Reference" "#PWR06" (at 50.8 49.53 0)
+    (property "Reference" "#PWR0910" (at 50.8 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 48.26 0)
@@ -4308,11 +4307,11 @@
     (property "Datasheet" "" (at 50.8 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7f349034-7b0e-46a3-ad2e-d37613ab1d78))
+    (pin "1" (uuid e47cc3be-b218-4bb6-bc35-6d7705bfc5ef))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR0910") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4326,7 +4325,7 @@
   (symbol (lib_id "power:GND") (at 114.3 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 792ad5a3-5a01-4496-beff-59ace6355be6)
-    (property "Reference" "#PWR021" (at 114.3 161.29 0)
+    (property "Reference" "#PWR0937" (at 114.3 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 160.02 0)
@@ -4338,11 +4337,11 @@
     (property "Datasheet" "" (at 114.3 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 568c1f4c-1131-4844-9037-9d1719b32f1a))
+    (pin "1" (uuid 29e8f77b-4ead-48d7-a60e-32e07eb4e4d3))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0937") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4368,11 +4367,11 @@
     (property "Datasheet" "~" (at 39.37 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a2154cc6-4ddb-4192-8368-437130e67c4a))
+    (pin "1" (uuid 4497399c-a20f-448c-8f30-ebd441957341))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG0101") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4389,7 +4388,7 @@
   (symbol (lib_id "power:GND") (at 39.37 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83e40a68-7203-40d4-b6ff-3eac6ed813f9)
-    (property "Reference" "#PWR04" (at 39.37 49.53 0)
+    (property "Reference" "#PWR0908" (at 39.37 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 48.26 0)
@@ -4401,11 +4400,11 @@
     (property "Datasheet" "" (at 39.37 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53a10df6-b489-405c-aec0-8f545cf4f554))
+    (pin "1" (uuid 4917f18b-d968-49ae-95e2-b1dd1c1b5345))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR0908") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4419,7 +4418,7 @@
   (symbol (lib_id "MEMS_Discrete-semiconductor:LED_0805_Red") (at 236.22 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d422ced-f7ee-4855-96ba-ea2c0c8c88fd)
-    (property "Reference" "D2" (at 240.03 149.5425 90)
+    (property "Reference" "D3" (at 240.03 149.5425 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 240.03 152.0825 90)
@@ -4437,8 +4436,8 @@
     (property "MPN" "LS R976-NR-1" (at 236.22 148.59 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 7c0d526b-bd8e-4c26-b88c-791c08c63094))
-    (pin "2" (uuid 6e44f06a-8a17-40cb-9b7e-be66a9ba7d6e))
+    (pin "1" (uuid accc9e0c-3a59-4f33-a775-c047c17ee618))
+    (pin "2" (uuid 21c98c25-ecbf-4500-87b5-91a3d130702d))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4447,13 +4446,13 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_name "EuroBoardLED_1") (lib_id "MEMS_Custom:EuroBoardLED") (at 125.73 153.67 0) (unit 2)
+  (symbol (lib_id "MEMS_Custom:EuroBoardLED") (at 125.73 153.67 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 917df5d3-a3bb-4004-9cf8-22cc2d639334)
     (property "Reference" "B1" (at 128.27 142.24 0)
@@ -4468,46 +4467,46 @@
     (property "Datasheet" "https://www.mouser.pl/datasheet/2/737/4684_WS2812B_2020_V1_3_EN-1900866.pdf" (at 120.65 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "4680" (at 110.49 140.97 0)
+    (property "MPN" "4680+61201021721+61201021721+61201021721+970130324+970130324" (at 110.49 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "485-4684" (at 118.11 128.27 0)
+    (property "Mouser" "485-4684+710-61201021721+710-61201021721+710-6120102172+710-970130324+710-970130324" (at 118.11 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df467a95-f32d-4499-ba78-ed535e73cc3a))
-    (pin "10" (uuid 547d2ae5-f52f-4aac-bb5b-eb2b9b6a672a))
-    (pin "11" (uuid fd9d4027-7985-430c-a7cc-e1be9079373d))
-    (pin "12" (uuid 5d552698-406e-445f-8158-d4ef8df9c5fe))
-    (pin "13" (uuid 83f1574d-21db-451d-abfe-f3f7e894c420))
-    (pin "14" (uuid dfa87146-f6d9-4332-9d78-c65cc4b73c37))
-    (pin "15" (uuid 7f26305b-8079-4d7d-9b1c-59c0d26230de))
-    (pin "16" (uuid 88b4be23-39ba-48b8-8f39-fae40bf97742))
-    (pin "17" (uuid 2ed91c0c-3a77-4fd5-8b1a-e27ee84e939e))
-    (pin "18" (uuid 104f635b-1d24-4f34-8bbd-2e4a4feba846))
-    (pin "19" (uuid 317d0d3d-f454-4d3f-9c0c-0e8690b250c8))
-    (pin "2" (uuid b3c00b21-0458-49a6-a48e-e1d31cde03a3))
-    (pin "20" (uuid e85b0eec-552c-4dbc-9442-963ca6e7842b))
-    (pin "21" (uuid 80d0fb5e-65f0-4a72-afec-026244740cea))
-    (pin "22" (uuid 64d48c4c-7fa1-4113-9dbf-80f20f146a79))
-    (pin "23" (uuid 734537ee-29ae-465b-843e-1b78a36a4a32))
-    (pin "24" (uuid d4ddc3b1-991f-474a-afed-c3587cfcaf0d))
-    (pin "25" (uuid b3f2d649-ece9-4ea7-b1e0-45796d0910eb))
-    (pin "26" (uuid 96c0b6af-a71f-4612-a689-cde3132b2b54))
-    (pin "27" (uuid d03d39da-f3e2-4aca-a00c-2af5f8ba11c7))
-    (pin "28" (uuid 7c284726-baed-4417-9294-e059c349dae2))
-    (pin "29" (uuid cbf45899-023b-434e-90bb-986fd5c5571a))
-    (pin "3" (uuid d9f6d9e5-1690-40b1-b0eb-2b511c12c66a))
-    (pin "30" (uuid d6d6ce13-bca5-4c30-b0d7-342a8aa7e4b3))
-    (pin "4" (uuid 68870685-63f0-431f-87ef-99a1c3b89c57))
-    (pin "5" (uuid e9359942-ea1b-4dd0-a1ed-fd3e1cd7278f))
-    (pin "6" (uuid 862c79e6-4d30-4c35-b976-9750598f9b36))
-    (pin "7" (uuid 556ff376-2bbe-4cd0-8b40-dc99c0a3e7d8))
-    (pin "8" (uuid d1498285-fd6c-463b-94d7-6d2400145ff3))
-    (pin "9" (uuid fa7226e9-84e7-43d8-aae9-724a2635f819))
-    (pin "D1" (uuid d45c6555-8cd9-41f3-961d-a377aa0e65b1))
-    (pin "D2" (uuid 2a56f691-f2f8-462c-81a5-a873394fd09f))
-    (pin "D3" (uuid e18f27ea-15a3-48f3-afda-39d7f8247400))
-    (pin "D4" (uuid 5e6a157b-1bcf-47ee-9858-fd28ee500459))
+    (pin "1" (uuid 1ca198e2-147f-4258-b6a4-5220d1411e49))
+    (pin "10" (uuid fedba0f9-d409-4846-9729-3457f91b82bd))
+    (pin "11" (uuid dadee161-5e9a-468c-b29e-0edcbdaa9aec))
+    (pin "12" (uuid 67fd4f76-81c5-486c-8751-ac42eb81b0b9))
+    (pin "13" (uuid 800d3acb-1cb6-4141-a18e-3d9b848c24a4))
+    (pin "14" (uuid 5f5bd69c-8ce4-46d6-bef6-d56ed2595469))
+    (pin "15" (uuid ff18b7d8-a832-4fff-9fdf-c60c13abb4f7))
+    (pin "16" (uuid aa7781b7-c75c-4c39-acab-1ab858bdc40f))
+    (pin "17" (uuid 3e024374-32a2-4a1c-804a-c8a2fa4978c8))
+    (pin "18" (uuid b9f35153-2dda-4730-9125-5085a3f139b8))
+    (pin "19" (uuid 918f0589-a38f-491b-8812-e4d6721e02ca))
+    (pin "2" (uuid fb6a9405-26d7-4662-a4c0-6e5e4f132f59))
+    (pin "20" (uuid 5f0551b7-72ee-48aa-bc99-a66bd5201c28))
+    (pin "21" (uuid ffeb7c17-1dd0-4fc5-81ac-bb3e357c2b66))
+    (pin "22" (uuid f78f78a1-f904-4b20-9e26-7f13f86ca5a7))
+    (pin "23" (uuid 1e7a60dc-3e6c-48cc-88f7-3923a1d0fd87))
+    (pin "24" (uuid 29de96c6-7603-453e-bc49-6a17084ec9d2))
+    (pin "25" (uuid fbbd1e75-c361-4b5d-a52e-ec12beae5499))
+    (pin "26" (uuid 6a931fcf-4254-4843-b3dd-3e6edd7e3e25))
+    (pin "27" (uuid cf215eb0-8c62-4c8d-9b6c-fb8420e04591))
+    (pin "28" (uuid 7972c71b-dccd-4f22-b9df-11f73cacdb01))
+    (pin "29" (uuid ebd1bfa2-3ae5-4040-98a7-d2ecce4b3034))
+    (pin "3" (uuid 8e775440-1316-4bd4-bdeb-fc31a378c41c))
+    (pin "30" (uuid 0a6e936a-c1f5-4088-b680-d393316413ee))
+    (pin "4" (uuid 520db40d-d440-4c4e-8eb1-c3f350589e1f))
+    (pin "5" (uuid cee55bc9-4372-4f14-b410-3358bc38e6b8))
+    (pin "6" (uuid cc581336-b33e-473b-bdbd-0e3c5ee19a50))
+    (pin "7" (uuid e2329555-a703-4d07-9a9e-21a6618c8b4d))
+    (pin "8" (uuid 70769847-e339-46e6-81f3-3a298c6c7862))
+    (pin "9" (uuid 097cc1ab-1a91-4213-bdf0-7abe5ef0d794))
+    (pin "D1" (uuid e627c28e-b9cd-4177-b528-02b4203e8d0f))
+    (pin "D2" (uuid f697379f-c7c4-4fb4-b45e-c58708fa3ecb))
+    (pin "D3" (uuid 812cfbd8-4eb3-4a94-b8f2-9aaa795aa6f3))
+    (pin "D4" (uuid bfac2fd6-ebf2-4bb0-98d0-232b814f2766))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4525,7 +4524,7 @@
   (symbol (lib_id "power:GND") (at 66.04 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92249794-c89c-40cf-bdce-df3250bcc7f5)
-    (property "Reference" "#PWR011" (at 66.04 49.53 0)
+    (property "Reference" "#PWR0918" (at 66.04 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 48.26 0)
@@ -4537,11 +4536,11 @@
     (property "Datasheet" "" (at 66.04 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8810a8e-1eb3-4655-9c00-376cff4405ae))
+    (pin "1" (uuid 2a49831b-3c14-4311-9eb0-3db80f5071e2))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR0918") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4555,7 +4554,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 924bfe37-bf48-4f78-ab3c-7498bd8b4942)
-    (property "Reference" "JP1" (at 50.8 180.34 0)
+    (property "Reference" "JP8" (at 50.8 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR0" (at 55.88 180.34 0)
@@ -4570,8 +4569,8 @@
     (property "MPN" "NO_MPN" (at 36.83 184.912 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae8c9ca5-d7d5-4719-a1dd-b92dd0b1ffab))
-    (pin "2" (uuid f4291307-3fd3-4095-bc32-9bb3b4d217a3))
+    (pin "1" (uuid f592bf68-5cee-4a15-8339-a9e73cf997ab))
+    (pin "2" (uuid b49b02d5-8053-4302-9aa6-6d2476b94994))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4580,7 +4579,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "JP3") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -4589,7 +4588,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925b638d-4fc4-41fe-929b-5b3cad1b7d93)
-    (property "Reference" "C6" (at 105.41 176.53 0)
+    (property "Reference" "C16" (at 105.41 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 105.41 179.0638 0)
@@ -4604,8 +4603,8 @@
     (property "DNP" "DNP" (at 106.68 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid f78372c2-dc0e-46cc-901e-9311787bbd44))
-    (pin "2" (uuid 90228213-0886-46f6-a59e-61c5209c1398))
+    (pin "1" (uuid c84ef08b-7ac6-4a18-9e00-a5e02dc66c85))
+    (pin "2" (uuid 48fecdc4-ae8e-4a83-b8da-b48a19bb7da1))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4614,7 +4613,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C53") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -4623,7 +4622,7 @@
   (symbol (lib_id "power:GND") (at 34.29 82.55 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9901883a-3889-48eb-89c8-6043c7584da4)
-    (property "Reference" "#PWR02" (at 27.94 82.55 0)
+    (property "Reference" "#PWR0906" (at 27.94 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 82.5499 90)
@@ -4635,11 +4634,11 @@
     (property "Datasheet" "" (at 34.29 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc660677-e0ff-42b7-b6e3-35ac7b2d0c4f))
+    (pin "1" (uuid 802493ed-d7fd-43ce-98e8-9cfef2b62056))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR0906") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4653,7 +4652,7 @@
   (symbol (lib_id "power:GND") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c715780-baed-41e2-abaf-2f9af271928b)
-    (property "Reference" "#PWR014" (at 72.39 158.75 0)
+    (property "Reference" "#PWR0921" (at 72.39 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.3901 156.21 90)
@@ -4665,11 +4664,11 @@
     (property "Datasheet" "" (at 72.39 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5b1a1e59-b20d-476e-88f3-6e4321be670a))
+    (pin "1" (uuid 42490fa1-43f2-4646-96d7-49a7defb9347))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0921") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4683,7 +4682,7 @@
   (symbol (lib_id "power:GND") (at 187.96 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e077bee-9689-42bd-a785-ac2b422b42a3)
-    (property "Reference" "#PWR028" (at 187.96 58.42 0)
+    (property "Reference" "#PWR0933" (at 187.96 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 55.88 0)
@@ -4695,11 +4694,11 @@
     (property "Datasheet" "" (at 187.96 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ecdd6a8-c817-4328-ac5a-a92cd33b3a25))
+    (pin "1" (uuid b59b2513-41da-4c07-a62e-b480f0abde1f))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0933") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4713,7 +4712,7 @@
   (symbol (lib_id "power:GND") (at 120.65 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0a878f2-3b42-47bd-9d8d-bff8c3332b94)
-    (property "Reference" "#PWR022" (at 120.65 191.77 0)
+    (property "Reference" "#PWR0927" (at 120.65 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 189.23 0)
@@ -4725,11 +4724,11 @@
     (property "Datasheet" "" (at 120.65 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e396c199-2d7d-4481-8289-e751d663d8c8))
+    (pin "1" (uuid 35675a3c-3940-4355-9132-c958137d0d6a))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0927") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4743,7 +4742,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0439643-fef3-40f9-9de0-391b0884df74)
-    (property "Reference" "TP9" (at 74.93 147.32 90)
+    (property "Reference" "TP3" (at 74.93 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 74.93 142.24 90)
@@ -4755,7 +4754,7 @@
     (property "Datasheet" "~" (at 80.01 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fb69dea-722d-467e-af97-c4b482ca89fd))
+    (pin "1" (uuid eaee58f3-8a44-436b-983d-2b8cf53224f1))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4764,7 +4763,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "TP8") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -4773,7 +4772,7 @@
   (symbol (lib_id "power:GND") (at 191.77 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8a206c2-4ddb-4d09-b3b5-47ac2cc98744)
-    (property "Reference" "#PWR029" (at 191.77 151.13 0)
+    (property "Reference" "#PWR0934" (at 191.77 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 149.86 0)
@@ -4785,11 +4784,11 @@
     (property "Datasheet" "" (at 191.77 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81f12034-8778-4345-9bb8-e79f8ce6ba17))
+    (pin "1" (uuid 0963c81e-4c4f-4af4-8386-b25c15e0246e))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0934") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4800,7 +4799,7 @@
     )
   )
 
-  (symbol (lib_id "MEMS_Custom:EuroBoardLED") (at 43.18 85.09 0) (unit 1)
+  (symbol (lib_name "EuroBoardLED_1") (lib_id "MEMS_Custom:EuroBoardLED") (at 43.18 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba848db9-27f1-4693-949c-69f6b11f5f09)
     (property "Reference" "B1" (at 46.355 73.66 0)
@@ -4815,46 +4814,46 @@
     (property "Datasheet" "https://www.mouser.pl/datasheet/2/737/4684_WS2812B_2020_V1_3_EN-1900866.pdf" (at 38.1 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "4680" (at 27.94 72.39 0)
+    (property "MPN" "4680+61201021721+61201021721+61201021721+970130324+970130324" (at 27.94 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "485-4684" (at 35.56 59.69 0)
+    (property "Mouser" "485-4684+710-61201021721+710-61201021721+710-6120102172+710-970130324+710-970130324" (at 35.56 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 686d7936-4a2a-4a3c-9702-e601723a82fe))
-    (pin "10" (uuid 56544649-93f4-408a-bf4b-3eff860f8596))
-    (pin "11" (uuid 1e0ecb54-59a9-4047-8863-365513606618))
-    (pin "12" (uuid a6b827b3-aca0-49c7-a5c3-5e65b5ceb16b))
-    (pin "13" (uuid 360ea2f8-a4ef-4c2b-9204-6c5c5663dae7))
-    (pin "14" (uuid 7a7f0c06-8370-439d-a0c6-b79d3057eb72))
-    (pin "15" (uuid 4f54d0f6-7357-439c-a6ac-f6d301086358))
-    (pin "16" (uuid 03a2051b-9b36-47fb-8470-1aac53cf17a7))
-    (pin "17" (uuid 249a6159-71b6-44cb-91cb-7f459782ad72))
-    (pin "18" (uuid 2943c49e-7227-4f89-a876-a075bd902061))
-    (pin "19" (uuid 248e6771-3d97-4c79-9ffd-cec11073abdb))
-    (pin "2" (uuid 5af99925-929d-41ad-a787-ff07201f66aa))
-    (pin "20" (uuid ec6c4912-6925-42c8-a1e6-81e9b04a4ab7))
-    (pin "21" (uuid a8823d48-a19d-4b8d-b08d-6c5e365b7e7d))
-    (pin "22" (uuid 264122be-a543-4d4e-9f2d-1b33279fb1ab))
-    (pin "23" (uuid dac9ad92-550d-43c8-8fd4-75f546fc3fd3))
-    (pin "24" (uuid f707ecee-3f58-4965-b1ec-32c5b7c37cdc))
-    (pin "25" (uuid 3023067b-02ba-4522-ac8d-d7068b17b0b2))
-    (pin "26" (uuid f5351621-81ef-4cd1-b068-872b7b379cdf))
-    (pin "27" (uuid a154ebea-1d6b-4772-8948-ddb7c052c87b))
-    (pin "28" (uuid b690260f-47d5-417d-9ec3-6643d1e14c9a))
-    (pin "29" (uuid e2afd3ea-5cc7-4c07-9336-f596c647510b))
-    (pin "3" (uuid a588165b-f5fb-4a42-8547-b42a44581a3b))
-    (pin "30" (uuid 0876426f-1b86-40da-80ec-d5fda162f0a3))
-    (pin "4" (uuid c3d88de1-2ff2-48ee-90e3-db2181d83682))
-    (pin "5" (uuid 0eb02a82-c65b-477a-bd9b-d4465edbd3f8))
-    (pin "6" (uuid b29fa469-c07f-4301-b303-515a1b7e066b))
-    (pin "7" (uuid d8f0bf0b-5795-4bce-896f-473a04d51d6f))
-    (pin "8" (uuid ff3548b1-da3f-4dbb-8055-165b127b7756))
-    (pin "9" (uuid 250d7a2d-c2de-4bf9-90fe-cdce91383b1e))
-    (pin "D1" (uuid 7b8fd2d9-8a33-4275-8655-b900b70bef3d))
-    (pin "D2" (uuid 83e34db7-c870-45ba-859f-114d58405c50))
-    (pin "D3" (uuid 66592d18-5621-4f77-997e-e7dcea48e8b6))
-    (pin "D4" (uuid 0cdf99b0-cbb1-4525-92ff-36cd7a5f384b))
+    (pin "1" (uuid d8c3b571-cb39-4d89-a0f7-7937fa0d0205))
+    (pin "10" (uuid 3d3ce3aa-7b4e-49da-bf98-8bc89d77cb99))
+    (pin "11" (uuid 2f80f69e-b1a5-4e78-b7f6-bd21994d43c5))
+    (pin "12" (uuid 9b2f7d8c-f79e-4c8a-a63e-ee5ddd897a41))
+    (pin "13" (uuid 024db0a0-08b3-41cc-b7e3-e5a06248b1a5))
+    (pin "14" (uuid cda9babc-ae9f-4f5f-a848-eaa96900b524))
+    (pin "15" (uuid aee6a4c5-88b5-45a9-a03d-da97ca146fe3))
+    (pin "16" (uuid 74fc0c21-367d-41a8-973e-f6efd7583b69))
+    (pin "17" (uuid 0b607bbb-2736-4890-a18e-e8d4014bf31d))
+    (pin "18" (uuid ce78778f-0a6b-40b3-9607-25d046611e11))
+    (pin "19" (uuid 2b8c0d9c-a927-496c-a3ff-b48cc6987a5c))
+    (pin "2" (uuid 8177e295-75f8-4ae3-8543-bebb93499432))
+    (pin "20" (uuid 8bf1f55f-596e-4762-be5e-1922cb4c7032))
+    (pin "21" (uuid 4b7facc9-8104-4208-b495-d4f827f099a3))
+    (pin "22" (uuid 79aeee0f-22b5-4266-affb-8630d19969ee))
+    (pin "23" (uuid 43f471b4-a810-4b89-b8e1-bccc8fe280b8))
+    (pin "24" (uuid 2836e300-1e0b-4b19-b9b7-b2fac9b8ee9a))
+    (pin "25" (uuid 9a0a99b8-86b1-4245-8fd6-b1be1c36e875))
+    (pin "26" (uuid efa7c97b-bdb5-4f04-841c-57451eff77da))
+    (pin "27" (uuid 2d30fa81-f222-4143-86de-4024eccf6202))
+    (pin "28" (uuid 4f791a29-f6be-47ce-812e-3d70a5938df4))
+    (pin "29" (uuid 3f376879-b52f-4de1-ad38-ef5bba6b59c4))
+    (pin "3" (uuid b2634685-b487-4572-967e-dc6b9946320c))
+    (pin "30" (uuid cea56c78-766d-4fcc-a813-8c38c13798b2))
+    (pin "4" (uuid 99cc8dc2-5e5f-4c3b-b3da-0ea62526e6b9))
+    (pin "5" (uuid 2501125b-0642-4571-b2ab-4dccda3831fd))
+    (pin "6" (uuid 8edc18e6-e232-4993-bc35-378f48cdd8d7))
+    (pin "7" (uuid 81d35321-7c7a-4fd4-8b57-4a801cfb0d1f))
+    (pin "8" (uuid 4f1cfe39-174a-46d9-8197-daeb557a7204))
+    (pin "9" (uuid c840306f-ff09-47e5-ae82-3731a64f71be))
+    (pin "D1" (uuid c3152a42-42a1-4355-b578-a9fe233c2152))
+    (pin "D2" (uuid 4eaf4fea-28fd-407b-a634-832108d2a984))
+    (pin "D3" (uuid 183652f5-7b42-4f2d-84d5-688ab80311e4))
+    (pin "D4" (uuid 0c7b1b10-155c-4f50-9211-5498da08f538))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4884,11 +4883,11 @@
     (property "Datasheet" "~" (at 191.77 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a5f2a57-d006-4868-a7c8-25d300116919))
+    (pin "1" (uuid 7db46855-8156-434e-b9f9-c911260b1d8c))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG0102") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4905,7 +4904,7 @@
   (symbol (lib_id "MEMS_IC:STM32G030CxT") (at 191.77 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b22ca3-6171-40c0-bda9-90109cb76b60)
-    (property "Reference" "U2" (at 193.7259 143.51 0)
+    (property "Reference" "U5" (at 193.7259 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G030CxT" (at 193.7259 146.05 0)
@@ -4923,54 +4922,54 @@
     (property "Mouser" "511-STM32G030C8T6" (at 191.77 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56103900-e517-4934-a2ab-5a7a86730131))
-    (pin "10" (uuid 119fd416-6154-4cc2-8993-7a60f30b8d4c))
-    (pin "11" (uuid e8eaef68-0b0c-45ea-bc8c-9eb62d950589))
-    (pin "12" (uuid 3b9676e3-b0a2-46cb-9513-1f27e27b726f))
-    (pin "13" (uuid 5fc9786a-e666-4241-81d2-6fe9973c16fc))
-    (pin "14" (uuid 4bf11e31-298c-4e3d-baab-cfc4711c822d))
-    (pin "15" (uuid e0edd104-5338-45ac-acff-1f846147f287))
-    (pin "16" (uuid ff00bac0-1ff0-44cf-a953-a1de1e7d0dbb))
-    (pin "17" (uuid 8acfaf48-881d-4cb2-8a00-5f4e49eb6dba))
-    (pin "18" (uuid cd4ef432-ae09-4651-9e1f-f7f1bec6f594))
-    (pin "19" (uuid 9f4e4fb7-5835-43fd-8e93-34cd971248d0))
-    (pin "2" (uuid 43222037-1547-40a2-b864-bfcbf57b9270))
-    (pin "20" (uuid 522a4867-7daf-4b6c-b291-045604ca6b01))
-    (pin "21" (uuid 17a2fdc2-62b8-473e-ac9b-c2e3a7c55529))
-    (pin "22" (uuid 98bd593f-ccd7-4532-9a57-7b7e8c358ecb))
-    (pin "23" (uuid 72075613-1239-4f47-86c3-3f4a54f6c52e))
-    (pin "24" (uuid 483f6abc-d3e8-4899-9cca-1040e9d31d9f))
-    (pin "25" (uuid 1ff7fc0f-b28e-45bc-8d9e-41d7a60f985e))
-    (pin "26" (uuid 10b3d928-db45-4c3c-a446-9e623f707997))
-    (pin "27" (uuid be94caa8-7a9b-4b71-aad3-12e75877d91d))
-    (pin "28" (uuid 9898e7df-19b0-4f09-91fe-d0f3a26a4cf2))
-    (pin "29" (uuid 76fc966c-b1e2-4a98-99b5-86afe4a55d65))
-    (pin "3" (uuid f36b313f-6b3b-4723-a148-8307b066e953))
-    (pin "30" (uuid 1f4071ba-a2af-4d19-89c5-3c6c828ddad1))
-    (pin "31" (uuid d71c277b-08fb-4c6d-8cc2-19bd7a2d095d))
-    (pin "32" (uuid bd26e0ac-53df-43fc-b1cd-66bdc76585bf))
-    (pin "33" (uuid 4cced266-1a67-4def-bfaf-a4fbd8917ac7))
-    (pin "34" (uuid 7145c9e8-8406-4c77-9f83-8d9c48580670))
-    (pin "35" (uuid a92d0c23-3430-4f6c-84bb-153b08ec04a2))
-    (pin "36" (uuid c0a3e450-824f-44a9-9811-68c77d4d4906))
-    (pin "37" (uuid 850e601a-7dcf-4179-b48f-45a5c6dc9cff))
-    (pin "38" (uuid b5f06274-810e-4a7f-94ff-29c1917b3752))
-    (pin "39" (uuid 95d3bce8-aee7-4815-8243-64d636b93e8f))
-    (pin "4" (uuid 8bc879ee-38e2-4398-8d4b-4059ae0a4560))
-    (pin "40" (uuid 378af4ae-4e82-4462-8fef-440b22a73aa1))
-    (pin "41" (uuid 972bc458-8c5e-48db-aba6-2b484989586c))
-    (pin "42" (uuid 1170cb25-0593-4d36-9651-d6c438add880))
-    (pin "43" (uuid ef25c1b3-4af1-4fef-95e1-50162b8e4d11))
-    (pin "44" (uuid 1292d91e-977d-489e-8085-919e5090b8d3))
-    (pin "45" (uuid f4e5ffaa-5db3-40d3-978b-e1b7259371cc))
-    (pin "46" (uuid 3287eda2-33dd-46a6-ae50-e12449138a8c))
-    (pin "47" (uuid 17b72962-a5df-4694-ba9f-0c830ed9c681))
-    (pin "48" (uuid b3c6b910-5d0d-46b1-9577-620aaab6e92e))
-    (pin "5" (uuid ec82f4a3-7336-46b5-bec2-b54efeff7ad2))
-    (pin "6" (uuid 0eb07532-55bd-4b19-8793-44495e8fefac))
-    (pin "7" (uuid 8a3bb88c-e8f4-49d1-94e4-31ab63634ec1))
-    (pin "8" (uuid 6d63661f-9e89-4bc1-bb9f-c495c3915ff7))
-    (pin "9" (uuid d80bc2e9-aa1b-4173-975f-6e84f0cd2329))
+    (pin "1" (uuid 50159686-f276-4825-96ea-00686d1c38f4))
+    (pin "10" (uuid b62a5063-f354-467c-a387-18077f05a6cc))
+    (pin "11" (uuid 9a836d83-62c9-4614-9444-4cc0f79a1141))
+    (pin "12" (uuid 0ad90405-a6a5-4ca9-b0a2-507ee9c1b1e8))
+    (pin "13" (uuid 10437d9b-da33-48ff-92ae-84bf3e2111d9))
+    (pin "14" (uuid 177dddd2-b670-471b-9767-b51e4b2c06a5))
+    (pin "15" (uuid 37f6386d-0744-4995-8207-a4365e15c72b))
+    (pin "16" (uuid 71e2289b-8f64-4a52-ad94-33dec5772d09))
+    (pin "17" (uuid 4db467f2-3fe0-4bf2-9b18-4789bbf65aab))
+    (pin "18" (uuid 60ae212f-0e2c-440a-8ba9-c8a95df5a6c0))
+    (pin "19" (uuid 8e5fefc4-e446-4e09-bc78-581168ae331f))
+    (pin "2" (uuid f323b23a-cd4b-4c9f-8ddf-f630f65c853d))
+    (pin "20" (uuid 570c3e68-5e48-4893-b047-b5fba81162c8))
+    (pin "21" (uuid b67de065-52eb-4ef3-b7a0-f50eefe72604))
+    (pin "22" (uuid e55262f8-e44f-4e77-a1cd-40bef70bb321))
+    (pin "23" (uuid a6a2b9dd-46dd-4ad9-aec5-e11bbdbf40d4))
+    (pin "24" (uuid 7819de24-b7f1-4a67-9fa6-792680b6e167))
+    (pin "25" (uuid 1a9e0d41-b693-4aa9-89a3-69cfcfb3d07c))
+    (pin "26" (uuid de50e467-0122-467d-8550-276d07e3d346))
+    (pin "27" (uuid 2ef1b258-30ee-488e-8d34-ef7eb89697fa))
+    (pin "28" (uuid 5918037b-744a-481e-afd8-7b8ceb15b85c))
+    (pin "29" (uuid 050df444-bd1e-4e2b-976f-a283d9f3913f))
+    (pin "3" (uuid 454305d1-b223-46bb-970c-e9f54152bc5d))
+    (pin "30" (uuid 96de2ade-1aee-4f31-a338-f0730de08c41))
+    (pin "31" (uuid f76619cf-288b-4599-8ba9-e84f3ca4abec))
+    (pin "32" (uuid 7e3b28d1-9406-4742-ae0d-c5afba447e9a))
+    (pin "33" (uuid 0f6c65ee-2410-4765-8810-ef25130136de))
+    (pin "34" (uuid 73e71e18-8370-4c41-aa5a-88614b67e332))
+    (pin "35" (uuid 076a8941-1a69-46d2-bf15-62700cf55866))
+    (pin "36" (uuid b9be363f-3e44-493e-a905-181c17ea66bc))
+    (pin "37" (uuid a1d78a42-9220-46ec-8101-0294fa995400))
+    (pin "38" (uuid bf3f2628-0248-4dc3-9f9c-254d28ecdb4d))
+    (pin "39" (uuid 90540a13-d333-497a-8992-284b1c7624a2))
+    (pin "4" (uuid 0219d3c1-bda7-4be4-bec7-9cf3885cdada))
+    (pin "40" (uuid 04e1f70e-6f4c-4543-af07-d1e68ff95467))
+    (pin "41" (uuid 3913c933-133f-45ed-bfce-2dd25cc78363))
+    (pin "42" (uuid e182343a-c63f-4047-9d14-5739d174a8e4))
+    (pin "43" (uuid 627ea351-3c62-43bf-b080-116027e52de3))
+    (pin "44" (uuid 8ce9390b-c65c-4c37-8d32-ac6efb631fcb))
+    (pin "45" (uuid dacb5bbd-f22d-474e-9331-303997c43402))
+    (pin "46" (uuid ed9d51a7-60ee-429d-9d78-ee21c61d4528))
+    (pin "47" (uuid 1bd39138-82dc-4c92-b614-9acdd82277ae))
+    (pin "48" (uuid 8b5d345f-f074-487b-8a1f-3ca9c84a86d3))
+    (pin "5" (uuid 80c93473-509a-4fa3-b892-b2055a29fc49))
+    (pin "6" (uuid 374e5500-b768-4460-b9b1-6bd2f6f39e86))
+    (pin "7" (uuid 3ecf5b0d-a5c1-45ba-8797-6338002c1d49))
+    (pin "8" (uuid 34762c0b-1ecf-4f5a-88a0-d0c99efbfe44))
+    (pin "9" (uuid cc0fc1b4-d3ca-4929-a23b-0361c2bb22f0))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -4979,7 +4978,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "U16") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -4988,7 +4987,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c79b4cc6-7428-4f30-924d-bdfcda602b18)
-    (property "Reference" "C9" (at 167.64 142.2462 0)
+    (property "Reference" "C20" (at 167.64 142.2462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 167.64 144.7862 0)
@@ -5000,8 +4999,8 @@
     (property "Datasheet" "~" (at 165.1 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df7d422c-fc51-4ff0-b964-5aeb62133873))
-    (pin "2" (uuid c25da916-6283-4e88-a52e-123aafa70a4f))
+    (pin "1" (uuid 1e031cbd-0a73-4892-9d8c-27a58675e67d))
+    (pin "2" (uuid 7ef5c317-1ea0-47a2-b528-a3044853c569))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -5010,7 +5009,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C55") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -5019,7 +5018,7 @@
   (symbol (lib_id "power:GND") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca4bf424-9b4b-4820-81c0-5e9d655efb0e)
-    (property "Reference" "#PWR015" (at 74.93 158.75 0)
+    (property "Reference" "#PWR0922" (at 74.93 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.9301 156.21 90)
@@ -5031,11 +5030,11 @@
     (property "Datasheet" "" (at 74.93 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a8347c0-7e5c-40ec-8cba-5cb6c7d59a5e))
+    (pin "1" (uuid 67a2cc91-04b3-4aa7-aaaf-b2f317ecd5ef))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0922") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5049,7 +5048,7 @@
   (symbol (lib_id "power:GND") (at 34.29 87.63 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb01a991-15f8-4543-b123-2a9eee360acd)
-    (property "Reference" "#PWR03" (at 27.94 87.63 0)
+    (property "Reference" "#PWR0907" (at 27.94 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 87.6299 90)
@@ -5061,11 +5060,11 @@
     (property "Datasheet" "" (at 34.29 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c45e0ec-0a16-46c5-9693-0a02b1ecbf25))
+    (pin "1" (uuid fc450a9e-1aed-4b05-9bd8-db1ef6d783e8))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR0907") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5079,7 +5078,7 @@
   (symbol (lib_id "power:GND") (at 69.85 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dade8cf3-ea60-4875-8285-a996aff8e003)
-    (property "Reference" "#PWR013" (at 69.85 158.75 0)
+    (property "Reference" "#PWR0920" (at 69.85 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.8501 156.21 90)
@@ -5091,11 +5090,11 @@
     (property "Datasheet" "" (at 69.85 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98f31de9-f0b2-49d5-bafc-31ca33dc7c6c))
+    (pin "1" (uuid d5ed88f1-3e62-447d-aa34-030e0cbc7599))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR0920") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5109,7 +5108,7 @@
   (symbol (lib_id "power:GND") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8726929-44cf-4949-b22f-e2a51078a72f)
-    (property "Reference" "#PWR012" (at 67.31 158.75 0)
+    (property "Reference" "#PWR0919" (at 67.31 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.3101 156.21 90)
@@ -5121,11 +5120,11 @@
     (property "Datasheet" "" (at 67.31 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c9a0896-5267-43a5-b489-26d1c5432037))
+    (pin "1" (uuid 13a23906-de6a-43b8-9127-4d98bf1fb830))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR0919") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5139,7 +5138,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 69.85 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29ebdf1-83e6-47a0-89bb-b80f89f5d0d3)
-    (property "Reference" "TP7" (at 69.85 147.32 90)
+    (property "Reference" "TP5" (at 69.85 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 69.85 142.24 90)
@@ -5151,16 +5150,16 @@
     (property "Datasheet" "~" (at 74.93 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6fd6687d-994e-4f5e-b20f-3d59df350d92))
+    (pin "1" (uuid 2cab6790-4220-4fda-a3ba-d12c9179c30e))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "TP14") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "TP14") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -5169,7 +5168,7 @@
   (symbol (lib_id "power:GND") (at 152.4 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f305cd18-184b-4977-811c-9fa0e48af886)
-    (property "Reference" "#PWR024" (at 152.4 62.23 0)
+    (property "Reference" "#PWR0929" (at 152.4 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 60.96 0)
@@ -5181,11 +5180,11 @@
     (property "Datasheet" "" (at 152.4 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a8526d5-537f-4e21-ab3f-1af9949434a0))
+    (pin "1" (uuid 99361af1-b112-44f6-b13f-4a1035d1474c))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0929") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5217,8 +5216,8 @@
     (property "MPN" "742792040" (at 182.88 44.45 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 5da1e11c-18f7-4a00-ac03-a501d0181ced))
-    (pin "2" (uuid a8d83584-2ec6-4eeb-aa1b-152ca8ae9cda))
+    (pin "1" (uuid 0826cbe8-ad3a-41a2-9f70-6d5886c11daa))
+    (pin "2" (uuid 1ef24d8d-3427-48cc-804d-439d8a199e24))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -5236,7 +5235,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 50.8 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f84296d0-2881-4d3a-8d1e-7e495ea261d6)
-    (property "Reference" "C2" (at 54.61 34.6709 0)
+    (property "Reference" "C7" (at 54.61 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 54.61 37.2109 0)
@@ -5248,8 +5247,8 @@
     (property "Datasheet" "~" (at 50.8 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d85ca385-a80c-455a-85ec-768808536b38))
-    (pin "2" (uuid 7229a824-5f47-44c8-9503-4e3a277159fc))
+    (pin "1" (uuid b26fcb90-083b-4bd5-98f1-a293754dd516))
+    (pin "2" (uuid ba82f4c3-9930-4dbc-ad03-1e79cd4397be))
     (instances
       (project "EuroMeasure-HVPSU"
         (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/a9e61fd6-f16a-444e-bf49-8910cd484162"
@@ -5258,7 +5257,7 @@
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
-          (reference "C48") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
