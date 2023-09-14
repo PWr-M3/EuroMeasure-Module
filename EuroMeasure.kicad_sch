@@ -3051,9 +3051,9 @@
     (pin "1" (uuid 8a527c39-7b70-49a8-a224-f04f43a6a3e5))
     (pin "2" (uuid 21275119-1b78-4778-97e4-e35a0fa43c77))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C24") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C54") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3081,8 +3081,8 @@
     )
     (pin "1" (uuid b88c42e8-107f-4896-ac4c-d3484215879d))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0913") (unit 1)
         )
       )
@@ -3111,9 +3111,9 @@
     )
     (pin "1" (uuid a1ba9a08-8410-4f7e-b8d7-001497699e63))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "TP1") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "TP5") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3148,8 +3148,8 @@
     (pin "1" (uuid 23ebeee2-7266-462e-bccd-c1896e077d44))
     (pin "2" (uuid 4c1f3644-56c2-4870-b7f5-4dedf04efae9))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "SW1") (unit 1)
         )
       )
@@ -3178,9 +3178,9 @@
     )
     (pin "1" (uuid 3ec0f71d-2c7d-47dc-a782-a8b73bf160c8))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "TP12") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "TP11") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3208,8 +3208,8 @@
     )
     (pin "1" (uuid b8e376bd-f793-4108-a040-6349b2f6f006))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0925") (unit 1)
         )
       )
@@ -3238,8 +3238,8 @@
     )
     (pin "1" (uuid 928ba79a-8be6-4765-aa6b-807dcd773f6d))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0917") (unit 1)
         )
       )
@@ -3277,8 +3277,8 @@
     (pin "3" (uuid 7d3808f0-a9ab-4b2f-869d-413af2130c92))
     (pin "4" (uuid 4435fb63-2926-40ce-a7e4-8006ae3c9bd2))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "Y1") (unit 1)
         )
       )
@@ -3311,9 +3311,9 @@
     (pin "1" (uuid d9b6bc3d-5463-4802-8a98-f432cddf02c0))
     (pin "2" (uuid 9b3afa2a-a0f6-4220-9cc2-4bc98c67f4d9))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "R20") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "R34") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3341,8 +3341,8 @@
     )
     (pin "1" (uuid 265c1b67-26c7-442c-8bb1-397e87688545))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0905") (unit 1)
         )
       )
@@ -3378,9 +3378,9 @@
     (pin "1" (uuid aa7ac83f-0ebe-42f2-8654-4fd9a2c65d7e))
     (pin "2" (uuid e38d8776-e46b-4323-811d-61407d15b379))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "F2") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "F3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3409,9 +3409,9 @@
     (pin "1" (uuid 68c9666f-63ae-4c87-9594-a380033cecee))
     (pin "2" (uuid cff02db4-39b4-4750-9e28-88b7ca2412e3))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C1") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3443,9 +3443,9 @@
     (pin "1" (uuid ecc0a929-1573-41c4-b76e-be7560c49257))
     (pin "2" (uuid 70b5be5d-8445-4856-89f4-9ac528e1ad57))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "R21") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "R19") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3473,8 +3473,8 @@
     )
     (pin "1" (uuid 88f4cfc7-863a-4123-84dd-c83b68e34526))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0912") (unit 1)
         )
       )
@@ -3504,9 +3504,9 @@
     (pin "1" (uuid d6283795-e3fb-4b8e-905c-547ac7ca2fea))
     (pin "2" (uuid 34ad1139-16f0-481c-9d02-42295f165279))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "R9") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "R2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3534,8 +3534,8 @@
     )
     (pin "1" (uuid bc006896-977d-4874-9ed7-aab3869b5c24))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0932") (unit 1)
         )
       )
@@ -3572,9 +3572,9 @@
     (pin "2" (uuid 4b602687-9933-41c5-8160-3cdab83fe371))
     (pin "3" (uuid 2ffa159e-471f-4b77-9b41-e92cedaea6bc))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "U3") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "U5") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3606,9 +3606,9 @@
     (pin "1" (uuid b73f112e-6cad-45c2-b87f-a5565db6f775))
     (pin "2" (uuid 6e4e2958-4b0b-477d-8c84-6062b2e747c4))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C20") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C44") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3636,8 +3636,8 @@
     )
     (pin "1" (uuid 6f404b86-a701-48c6-bde6-905851b32ca2))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0931") (unit 1)
         )
       )
@@ -3666,8 +3666,8 @@
     )
     (pin "1" (uuid 72ef86d1-345e-4c28-99ee-9be15f61fdd0))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0935") (unit 1)
         )
       )
@@ -3696,8 +3696,8 @@
     )
     (pin "1" (uuid 6f2e68eb-cc23-43ac-8233-41b2e8fe621c))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0930") (unit 1)
         )
       )
@@ -3726,8 +3726,8 @@
     )
     (pin "1" (uuid 93dff35a-c75b-4d8a-a080-8a4a604912ae))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0923") (unit 1)
         )
       )
@@ -3760,9 +3760,9 @@
     (pin "1" (uuid c54f2793-1244-4184-8ccb-f31f01c791f5))
     (pin "2" (uuid 4b423867-6028-4f43-b5e8-677f9d5dd312))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "JP2") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "JP18") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3803,9 +3803,9 @@
     (pin "1" (uuid 1fc87aa4-984e-405f-a20d-2eab2015f6af))
     (pin "2" (uuid 827fb576-4092-47a6-86a4-098da40610b6))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "D14") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "D7") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3833,8 +3833,8 @@
     )
     (pin "1" (uuid 76c6cdd1-c970-4f9d-a9db-195fb5dfab16))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0928") (unit 1)
         )
       )
@@ -3863,8 +3863,8 @@
     )
     (pin "1" (uuid 66c0d23d-4d15-442e-8c3f-28633910eb4b))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0926") (unit 1)
         )
       )
@@ -3894,9 +3894,9 @@
     (pin "1" (uuid a5ca8578-4cec-4bee-866d-b870cf700a60))
     (pin "2" (uuid 8c5253fc-2b84-4131-a9d3-3a542de345bd))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "R23") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "R33") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3937,8 +3937,8 @@
     (pin "7" (uuid 996aa302-7cae-4e6e-bd47-5c3e2bd5cd67))
     (pin "8" (uuid 479f138c-9c3a-4fff-ad9c-33183e7860e0))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "SW2") (unit 1)
         )
       )
@@ -3968,9 +3968,9 @@
     (pin "1" (uuid 8443e6d3-5608-4429-a6ab-9949475ccb9c))
     (pin "2" (uuid 285e4926-da2a-4164-8e2d-1292c7d54e87))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C14") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C27") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3998,8 +3998,8 @@
     )
     (pin "1" (uuid ad028327-f855-40e4-b0e6-8c0f863b9871))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0924") (unit 1)
         )
       )
@@ -4028,9 +4028,9 @@
     )
     (pin "1" (uuid c9fe7a86-5d87-4e10-835f-b577d91890ce))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "TP2") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "TP4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4059,9 +4059,9 @@
     (pin "1" (uuid 5ec488d9-5d46-4956-8d28-ce04de892fa3))
     (pin "2" (uuid a068b456-3d93-46e3-abb0-420e1e66810e))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C13") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C24") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4089,8 +4089,8 @@
     )
     (pin "1" (uuid 2eed43cf-3bdd-474f-bbcf-ad5ff88fc0d2))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0909") (unit 1)
         )
       )
@@ -4119,8 +4119,8 @@
     )
     (pin "1" (uuid 52966b6b-4a0b-43c9-a7a3-551ba85038b0))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0938") (unit 1)
         )
       )
@@ -4150,9 +4150,9 @@
     (pin "1" (uuid 06ec6092-07e5-4179-bab3-32f4b9ac3cb7))
     (pin "2" (uuid 509bb32f-95ae-4977-91b1-7ea687d4803c))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C16") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C26") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4184,9 +4184,9 @@
     (pin "1" (uuid 038085fc-48a6-4009-9048-f2e160032b3c))
     (pin "2" (uuid b82577f0-9e28-421d-b08d-5042feb7dc0f))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "JP4") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "JP16") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4215,9 +4215,9 @@
     (pin "1" (uuid 218840fa-60f7-488f-8a52-24073326498f))
     (pin "2" (uuid 28d9ade6-4f9b-4005-bfcb-87f5185f82f4))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C23") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C52") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4245,8 +4245,8 @@
     )
     (pin "1" (uuid 5e64eccd-5f20-439f-85c2-d8b4075f8138))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0911") (unit 1)
         )
       )
@@ -4279,9 +4279,9 @@
     (pin "1" (uuid 9e6f7b06-0f2d-458f-b96e-c043ce15fbfa))
     (pin "2" (uuid 0eae0acb-c318-459a-9180-1a13427d87c0))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "JP1") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "JP15") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4309,8 +4309,8 @@
     )
     (pin "1" (uuid e47cc3be-b218-4bb6-bc35-6d7705bfc5ef))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0910") (unit 1)
         )
       )
@@ -4339,8 +4339,8 @@
     )
     (pin "1" (uuid 29e8f77b-4ead-48d7-a60e-32e07eb4e4d3))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0937") (unit 1)
         )
       )
@@ -4369,8 +4369,8 @@
     )
     (pin "1" (uuid 4497399c-a20f-448c-8f30-ebd441957341))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#FLG0101") (unit 1)
         )
       )
@@ -4402,8 +4402,8 @@
     )
     (pin "1" (uuid 4917f18b-d968-49ae-95e2-b1dd1c1b5345))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0908") (unit 1)
         )
       )
@@ -4439,9 +4439,9 @@
     (pin "1" (uuid accc9e0c-3a59-4f33-a775-c047c17ee618))
     (pin "2" (uuid 21c98c25-ecbf-4500-87b5-91a3d130702d))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "D6") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "D1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4508,8 +4508,8 @@
     (pin "D3" (uuid 812cfbd8-4eb3-4a94-b8f2-9aaa795aa6f3))
     (pin "D4" (uuid bfac2fd6-ebf2-4bb0-98d0-232b814f2766))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "B1") (unit 2)
         )
       )
@@ -4538,8 +4538,8 @@
     )
     (pin "1" (uuid 2a49831b-3c14-4311-9eb0-3db80f5071e2))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0918") (unit 1)
         )
       )
@@ -4572,9 +4572,9 @@
     (pin "1" (uuid f592bf68-5cee-4a15-8339-a9e73cf997ab))
     (pin "2" (uuid b49b02d5-8053-4302-9aa6-6d2476b94994))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "JP3") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "JP17") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4606,9 +4606,9 @@
     (pin "1" (uuid c84ef08b-7ac6-4a18-9e00-a5e02dc66c85))
     (pin "2" (uuid 48fecdc4-ae8e-4a83-b8da-b48a19bb7da1))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C21") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C41") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4636,8 +4636,8 @@
     )
     (pin "1" (uuid 802493ed-d7fd-43ce-98e8-9cfef2b62056))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0906") (unit 1)
         )
       )
@@ -4666,8 +4666,8 @@
     )
     (pin "1" (uuid 42490fa1-43f2-4646-96d7-49a7defb9347))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0921") (unit 1)
         )
       )
@@ -4696,8 +4696,8 @@
     )
     (pin "1" (uuid b59b2513-41da-4c07-a62e-b480f0abde1f))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0933") (unit 1)
         )
       )
@@ -4726,8 +4726,8 @@
     )
     (pin "1" (uuid 35675a3c-3940-4355-9132-c958137d0d6a))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0927") (unit 1)
         )
       )
@@ -4756,9 +4756,9 @@
     )
     (pin "1" (uuid eaee58f3-8a44-436b-983d-2b8cf53224f1))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "TP11") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "TP6") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4786,8 +4786,8 @@
     )
     (pin "1" (uuid 0963c81e-4c4f-4af4-8386-b25c15e0246e))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0934") (unit 1)
         )
       )
@@ -4855,8 +4855,8 @@
     (pin "D3" (uuid 183652f5-7b42-4f2d-84d5-688ab80311e4))
     (pin "D4" (uuid 0c7b1b10-155c-4f50-9211-5498da08f538))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "B1") (unit 1)
         )
       )
@@ -4885,8 +4885,8 @@
     )
     (pin "1" (uuid 7db46855-8156-434e-b9f9-c911260b1d8c))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#FLG0102") (unit 1)
         )
       )
@@ -4971,9 +4971,9 @@
     (pin "8" (uuid 34762c0b-1ecf-4f5a-88a0-d0c99efbfe44))
     (pin "9" (uuid cc0fc1b4-d3ca-4929-a23b-0361c2bb22f0))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "U4") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "U9") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5002,9 +5002,9 @@
     (pin "1" (uuid 1e031cbd-0a73-4892-9d8c-27a58675e67d))
     (pin "2" (uuid 7ef5c317-1ea0-47a2-b528-a3044853c569))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C25") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C53") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5032,8 +5032,8 @@
     )
     (pin "1" (uuid 67a2cc91-04b3-4aa7-aaaf-b2f317ecd5ef))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0922") (unit 1)
         )
       )
@@ -5062,8 +5062,8 @@
     )
     (pin "1" (uuid fc450a9e-1aed-4b05-9bd8-db1ef6d783e8))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0907") (unit 1)
         )
       )
@@ -5092,8 +5092,8 @@
     )
     (pin "1" (uuid d5ed88f1-3e62-447d-aa34-030e0cbc7599))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0920") (unit 1)
         )
       )
@@ -5122,8 +5122,8 @@
     )
     (pin "1" (uuid 13a23906-de6a-43b8-9127-4d98bf1fb830))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0919") (unit 1)
         )
       )
@@ -5152,9 +5152,9 @@
     )
     (pin "1" (uuid 2cab6790-4220-4fda-a3ba-d12c9179c30e))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "TP13") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "TP10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5182,8 +5182,8 @@
     )
     (pin "1" (uuid 99361af1-b112-44f6-b13f-4a1035d1474c))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
           (reference "#PWR0929") (unit 1)
         )
       )
@@ -5219,9 +5219,9 @@
     (pin "1" (uuid 0826cbe8-ad3a-41a2-9f70-6d5886c11daa))
     (pin "2" (uuid 1ef24d8d-3427-48cc-804d-439d8a199e24))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "L3") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "L1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5250,9 +5250,9 @@
     (pin "1" (uuid b26fcb90-083b-4bd5-98f1-a293754dd516))
     (pin "2" (uuid ba82f4c3-9930-4dbc-ad03-1e79cd4397be))
     (instances
-      (project "EuroMeasure-SourcePSU"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/38818e49-d610-46bd-bec9-3060876bee77"
-          (reference "C12") (unit 1)
+      (project "EuroMeasure-Voltmeter"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+          (reference "C25") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
