@@ -1232,7 +1232,7 @@
           (name "PB9" (effects (font (size 1.27 1.27))))
           (number "48" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at -22.86 -35.56 0) (length 2.54)
+        (pin input line (at -22.86 -35.56 0) (length 2.54)
           (name "VREF+" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
@@ -1900,6 +1900,10 @@
     (stroke (width 0) (type default))
     (uuid 0ba6ab9d-527f-446f-8b5e-40e914b27690)
   )
+  (wire (pts (xy 152.4 34.29) (xy 152.4 35.56))
+    (stroke (width 0) (type default))
+    (uuid 0d7581a1-4f0d-434f-ade3-9c908798a15a)
+  )
   (wire (pts (xy 160.02 44.45) (xy 160.02 43.18))
     (stroke (width 0) (type default))
     (uuid 0ee97737-0e43-413d-9562-c4956fa43f53)
@@ -1943,6 +1947,10 @@
   (wire (pts (xy 152.4 52.07) (xy 152.4 55.88))
     (stroke (width 0) (type default))
     (uuid 1dd82e9c-30e0-4e8d-9610-b06e131e3b7a)
+  )
+  (wire (pts (xy 152.4 40.64) (xy 152.4 43.18))
+    (stroke (width 0) (type default))
+    (uuid 1e0e8bd3-3c57-4de3-ab96-ebdc4854040c)
   )
   (wire (pts (xy 39.37 30.48) (xy 39.37 33.02))
     (stroke (width 0) (type default))
@@ -2033,7 +2041,7 @@
     (stroke (width 0) (type default))
     (uuid 480e556f-9da9-4bba-9e24-873581eddad7)
   )
-  (wire (pts (xy 151.13 43.18) (xy 152.4 43.18))
+  (wire (pts (xy 149.86 43.18) (xy 152.4 43.18))
     (stroke (width 0) (type default))
     (uuid 4a14ae93-606f-41cf-bfcb-bf8894b39507)
   )
@@ -2452,7 +2460,7 @@
     (stroke (width 0) (type default))
     (uuid c6ecaf08-fd5f-499a-80a4-125e06d43766)
   )
-  (wire (pts (xy 138.43 43.18) (xy 143.51 43.18))
+  (wire (pts (xy 128.905 43.18) (xy 134.62 43.18))
     (stroke (width 0) (type default))
     (uuid c7154bbd-69c6-4b3e-8c4b-b9f56c5bf9dc)
   )
@@ -2645,6 +2653,11 @@
     (uuid fb8739d7-d8c6-480e-a54e-44e187b0fd53)
   )
 
+  (wire (pts (xy 142.24 43.18) (xy 144.78 43.18))
+    (stroke (width 0) (type default))
+    (uuid fcb04293-6d1b-427b-b2e8-e95dce0c9b07)
+  )
+
   (text "BOOT0" (at 151.13 133.985 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51a84138-553f-46e7-bbb5-4b9b14030ae9)
@@ -2678,10 +2691,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f50fdd3-de9b-4c09-b9e6-f6d224894a29)
   )
-  (label "5v_fused" (at 44.45 30.48 0) (fields_autoplaced)
-    (effects (font (size 0.5 0.5)) (justify left bottom))
-    (uuid 2151b244-7331-424c-85fe-ce9297c68c53)
-  )
   (label "OSC32_IN" (at 154.94 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 21790f84-bda9-447d-8384-e7e521d630be)
@@ -2710,10 +2719,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 46804fc9-3bda-4212-8235-8a11e99fda45)
   )
-  (label "led_r" (at 236.22 144.78 0) (fields_autoplaced)
-    (effects (font (size 0.5 0.5)) (justify left bottom))
-    (uuid 47016dfe-5bc6-48ba-ae01-11f241d07c11)
-  )
   (label "OSC_OUT" (at 100.33 175.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d608de4-2055-4974-99d1-838830782b4d)
@@ -2730,7 +2735,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 53c0fe0b-b7ce-40f8-9ffa-48130703fa7c)
   )
-  (label "RST" (at 138.43 43.18 0) (fields_autoplaced)
+  (label "RST" (at 128.905 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 58ab2f65-9e0a-4d53-afe9-3d4c6629224f)
   )
@@ -2781,10 +2786,6 @@
   (label "GP1" (at 66.04 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8beab928-4232-4d79-911f-fba754fc93a4)
-  )
-  (label "osc_mid" (at 127 175.26 0) (fields_autoplaced)
-    (effects (font (size 0.5 0.5)) (justify left bottom))
-    (uuid 8c1f379c-9df7-4264-be64-d742ac4e4428)
   )
   (label "ADR2" (at 224.79 118.11 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3036,7 +3037,7 @@
   (symbol (lib_id "Device:C_Small") (at 187.96 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 016ac401-b234-499b-a981-3b09d024d333)
-    (property "Reference" "C24" (at 181.61 46.99 0)
+    (property "Reference" "C54" (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 181.61 49.53 0)
@@ -3051,9 +3052,9 @@
     (pin "1" (uuid 8a527c39-7b70-49a8-a224-f04f43a6a3e5))
     (pin "2" (uuid 21275119-1b78-4778-97e4-e35a0fa43c77))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C54") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3081,9 +3082,9 @@
     )
     (pin "1" (uuid b88c42e8-107f-4896-ac4c-d3484215879d))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0913") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3097,7 +3098,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 87.63 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a0f5f1e-8ca1-4ece-a836-cb386070436f)
-    (property "Reference" "TP1" (at 86.36 24.13 0)
+    (property "Reference" "TP5" (at 86.36 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V3" (at 86.36 21.59 0)
@@ -3111,9 +3112,9 @@
     )
     (pin "1" (uuid a1ba9a08-8410-4f7e-b8d7-001497699e63))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "TP5") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP10") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3148,9 +3149,9 @@
     (pin "1" (uuid 23ebeee2-7266-462e-bccd-c1896e077d44))
     (pin "2" (uuid 4c1f3644-56c2-4870-b7f5-4dedf04efae9))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "SW1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "SW2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3164,7 +3165,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 67.31 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11748897-518b-4e63-9f58-24c519aa6562)
-    (property "Reference" "TP12" (at 67.31 147.32 90)
+    (property "Reference" "TP11" (at 67.31 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 67.31 142.24 90)
@@ -3178,9 +3179,9 @@
     )
     (pin "1" (uuid 3ec0f71d-2c7d-47dc-a782-a8b73bf160c8))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "TP11") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP6") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3208,9 +3209,9 @@
     )
     (pin "1" (uuid b8e376bd-f793-4108-a040-6349b2f6f006))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0925") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR018") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3238,9 +3239,9 @@
     )
     (pin "1" (uuid 928ba79a-8be6-4765-aa6b-807dcd773f6d))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0917") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR010") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3277,8 +3278,8 @@
     (pin "3" (uuid 7d3808f0-a9ab-4b2f-869d-413af2130c92))
     (pin "4" (uuid 4435fb63-2926-40ce-a7e4-8006ae3c9bd2))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "Y1") (unit 1)
         )
       )
@@ -3293,7 +3294,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25122625-eb80-429a-b437-11ed746af1ca)
-    (property "Reference" "R20" (at 64.77 175.26 90)
+    (property "Reference" "R34" (at 64.77 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 177.8 90)
@@ -3311,9 +3312,9 @@
     (pin "1" (uuid d9b6bc3d-5463-4802-8a98-f432cddf02c0))
     (pin "2" (uuid 9b3afa2a-a0f6-4220-9cc2-4bc98c67f4d9))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "R34") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3341,9 +3342,9 @@
     )
     (pin "1" (uuid 265c1b67-26c7-442c-8bb1-397e87688545))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0905") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR01") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3357,7 +3358,7 @@
   (symbol (lib_id "MEMS_Protection:Polyfuse-500mA-1206L050/15YR") (at 29.21 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 285534d0-d8f3-4448-ae40-3fa6d78cb95f)
-    (property "Reference" "F2" (at 29.21 25.4 90)
+    (property "Reference" "F3" (at 29.21 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse 0.5A" (at 29.21 27.94 90)
@@ -3378,9 +3379,9 @@
     (pin "1" (uuid aa7ac83f-0ebe-42f2-8654-4fd9a2c65d7e))
     (pin "2" (uuid e38d8776-e46b-4323-811d-61407d15b379))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "F3") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "F1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3394,7 +3395,7 @@
   (symbol (lib_id "Device:C") (at 104.14 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bc24c7d-93ba-4fb5-b153-8cc92da1c6a9)
-    (property "Reference" "C1" (at 107.95 153.6699 0)
+    (property "Reference" "C2" (at 107.95 153.6699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 107.95 156.2099 0)
@@ -3409,9 +3410,9 @@
     (pin "1" (uuid 68c9666f-63ae-4c87-9594-a380033cecee))
     (pin "2" (uuid cff02db4-39b4-4750-9e28-88b7ca2412e3))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C2") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C5") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3425,7 +3426,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ed469c4-9c9e-444d-b1d5-bbebca6b5235)
-    (property "Reference" "R21" (at 64.77 165.1 90)
+    (property "Reference" "R19" (at 64.77 165.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 64.77 167.64 90)
@@ -3443,9 +3444,9 @@
     (pin "1" (uuid ecc0a929-1573-41c4-b76e-be7560c49257))
     (pin "2" (uuid 70b5be5d-8445-4856-89f4-9ac528e1ad57))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "R19") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3473,9 +3474,9 @@
     )
     (pin "1" (uuid 88f4cfc7-863a-4123-84dd-c83b68e34526))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0912") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3489,7 +3490,7 @@
   (symbol (lib_id "Device:R_Small") (at 236.22 140.97 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38ba8e2b-ad41-4e55-95e1-5b2b031eb2ac)
-    (property "Reference" "R9" (at 241.3 139.7 0)
+    (property "Reference" "R2" (at 241.3 139.7 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 241.3 142.24 0)
@@ -3504,9 +3505,9 @@
     (pin "1" (uuid d6283795-e3fb-4b8e-905c-547ac7ca2fea))
     (pin "2" (uuid 34ad1139-16f0-481c-9d02-42295f165279))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "R2") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R6") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3534,9 +3535,9 @@
     )
     (pin "1" (uuid bc006896-977d-4874-9ed7-aab3869b5c24))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0932") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR028") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3550,7 +3551,7 @@
   (symbol (lib_id "MEMS_IC:AZ1117IH-3.3TRG1-SOT223") (at 66.04 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42f0ec56-ce23-4d24-b8ad-3ef562cb0837)
-    (property "Reference" "U3" (at 66.04 24.13 0)
+    (property "Reference" "U5" (at 66.04 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AZ1117-3V3" (at 66.04 26.67 0)
@@ -3572,9 +3573,9 @@
     (pin "2" (uuid 4b602687-9933-41c5-8160-3cdab83fe371))
     (pin "3" (uuid 2ffa159e-471f-4b77-9b41-e92cedaea6bc))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "U5") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "U1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3588,7 +3589,7 @@
   (symbol (lib_id "Device:C_Small") (at 127 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47a242c2-4573-408d-9077-c986456345ed)
-    (property "Reference" "C20" (at 129.54 177.8 0)
+    (property "Reference" "C44" (at 129.54 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 129.54 180.3338 0)
@@ -3606,9 +3607,9 @@
     (pin "1" (uuid b73f112e-6cad-45c2-b87f-a5565db6f775))
     (pin "2" (uuid 6e4e2958-4b0b-477d-8c84-6062b2e747c4))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C44") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C7") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3636,9 +3637,9 @@
     )
     (pin "1" (uuid 6f404b86-a701-48c6-bde6-905851b32ca2))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0931") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR027") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3666,9 +3667,9 @@
     )
     (pin "1" (uuid 72ef86d1-345e-4c28-99ee-9be15f61fdd0))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0935") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR031") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3696,14 +3697,45 @@
     )
     (pin "1" (uuid 6f2e68eb-cc23-43ac-8233-41b2e8fe621c))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0930") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR026") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
           (reference "#PWR0930") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 152.4 38.1 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4e2ec8a3-ba2d-4fe9-a11a-31e0bc049645)
+    (property "Reference" "R2" (at 157.48 36.83 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "1k" (at 157.48 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 152.4 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 152.4 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d9ebf1d1-83af-4e56-8b66-654ce9e44633))
+    (pin "2" (uuid e279e472-16d4-4c06-95fb-bb0eb30eebf2))
+    (instances
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R5") (unit 1)
+        )
+      )
+      (project "EuroMeasure-Generator"
+        (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3726,9 +3758,9 @@
     )
     (pin "1" (uuid 93dff35a-c75b-4d8a-a080-8a4a604912ae))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0923") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR016") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3742,7 +3774,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518ff594-9a75-42bc-bff1-d184cb94f219)
-    (property "Reference" "JP2" (at 50.8 187.96 0)
+    (property "Reference" "JP18" (at 50.8 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR3" (at 55.88 187.96 0)
@@ -3760,9 +3792,9 @@
     (pin "1" (uuid c54f2793-1244-4184-8ccb-f31f01c791f5))
     (pin "2" (uuid 4b423867-6028-4f43-b5e8-677f9d5dd312))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "JP18") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3773,39 +3805,39 @@
     )
   )
 
-  (symbol (lib_id "MEMS_Discrete-semiconductor:D_1N4148WS-SOD323") (at 147.32 43.18 0) (unit 1)
+  (symbol (lib_id "MEMS_Discrete-semiconductor:D_1N4148WS-SOD323") (at 138.43 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 531f9032-c386-4efb-8edc-54e94344e912)
-    (property "Reference" "D14" (at 147.32 38.1 0)
+    (property "Reference" "D7" (at 138.43 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1N4148" (at 147.32 40.64 0)
+    (property "Value" "1N4148" (at 138.43 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-323F" (at 147.32 43.18 0)
+    (property "Footprint" "Diode_SMD:D_SOD-323F" (at 138.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N4148WS_D-3006419.pdf" (at 147.32 43.18 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/1/1N4148WS_D-3006419.pdf" (at 138.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Device" "D" (at 147.32 43.18 0)
+    (property "Sim.Device" "D" (at 138.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Pins" "1=K 2=A" (at 147.32 43.18 0)
+    (property "Sim.Pins" "1=K 2=A" (at 138.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "512-1N4148WS" (at 147.32 43.18 0)
+    (property "Mouser" "512-1N4148WS" (at 138.43 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "1N4148WS" (at 147.32 43.18 0)
+    (property "MPN" "1N4148WS" (at 138.43 43.18 0)
       (effects (font (size 1 1)) hide)
     )
-    (pin "1" (uuid 1fc87aa4-984e-405f-a20d-2eab2015f6af))
-    (pin "2" (uuid 827fb576-4092-47a6-86a4-098da40610b6))
+    (pin "1" (uuid 7ba3a37c-da68-4961-bcb6-fccbffcc9cab))
+    (pin "2" (uuid 2bebd8b9-3961-4c6e-8104-0d6d3a813a3b))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "D7") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "D1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3833,9 +3865,9 @@
     )
     (pin "1" (uuid 76c6cdd1-c970-4f9d-a9db-195fb5dfab16))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0928") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR023") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3863,9 +3895,9 @@
     )
     (pin "1" (uuid 66c0d23d-4d15-442e-8c3f-28633910eb4b))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0926") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR020") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3879,7 +3911,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.35 175.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c23955d-5ae8-41c7-a930-29d8cd769e8f)
-    (property "Reference" "R23" (at 133.35 168.91 90)
+    (property "Reference" "R33" (at 133.35 168.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 133.35 171.45 90)
@@ -3894,9 +3926,9 @@
     (pin "1" (uuid a5ca8578-4cec-4bee-866d-b870cf700a60))
     (pin "2" (uuid 8c5253fc-2b84-4131-a9d3-3a542de345bd))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "R33") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3937,9 +3969,9 @@
     (pin "7" (uuid 996aa302-7cae-4e6e-bd47-5c3e2bd5cd67))
     (pin "8" (uuid 479f138c-9c3a-4fff-ad9c-33183e7860e0))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "SW2") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "SW1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3953,7 +3985,7 @@
   (symbol (lib_id "Device:C") (at 39.37 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e563339-2b5f-4d8f-aa87-3658975b0290)
-    (property "Reference" "C14" (at 43.18 35.5599 0)
+    (property "Reference" "C27" (at 43.18 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 43.18 38.0999 0)
@@ -3968,9 +4000,9 @@
     (pin "1" (uuid 8443e6d3-5608-4429-a6ab-9949475ccb9c))
     (pin "2" (uuid 285e4926-da2a-4164-8e2d-1292c7d54e87))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C27") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -3998,9 +4030,9 @@
     )
     (pin "1" (uuid ad028327-f855-40e4-b0e6-8c0f863b9871))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0924") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR017") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4014,7 +4046,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 72.39 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64356f7d-4eaa-492d-9296-bd11044887da)
-    (property "Reference" "TP2" (at 72.39 147.32 90)
+    (property "Reference" "TP4" (at 72.39 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 72.39 142.24 90)
@@ -4028,9 +4060,9 @@
     )
     (pin "1" (uuid c9fe7a86-5d87-4e10-835f-b577d91890ce))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "TP4") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP8") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4044,7 +4076,7 @@
   (symbol (lib_id "Device:C") (at 80.01 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64b171bc-c474-478f-a473-74dbc29e8941)
-    (property "Reference" "C13" (at 83.82 35.5599 0)
+    (property "Reference" "C24" (at 83.82 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 83.82 38.0999 0)
@@ -4059,9 +4091,9 @@
     (pin "1" (uuid 5ec488d9-5d46-4956-8d28-ce04de892fa3))
     (pin "2" (uuid a068b456-3d93-46e3-abb0-420e1e66810e))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C24") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4089,9 +4121,9 @@
     )
     (pin "1" (uuid 2eed43cf-3bdd-474f-bbcf-ad5ff88fc0d2))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0909") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4119,9 +4151,9 @@
     )
     (pin "1" (uuid 52966b6b-4a0b-43c9-a7a3-551ba85038b0))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0938") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR019") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4135,7 +4167,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 91.44 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d417f2a-653c-4e1b-950b-31de4b91925d)
-    (property "Reference" "C16" (at 95.25 34.6709 0)
+    (property "Reference" "C26" (at 95.25 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 95.25 37.2109 0)
@@ -4150,9 +4182,9 @@
     (pin "1" (uuid 06ec6092-07e5-4179-bab3-32f4b9ac3cb7))
     (pin "2" (uuid 509bb32f-95ae-4977-91b1-7ea687d4803c))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C26") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C4") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4166,7 +4198,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e5278f9-3031-4cab-ba03-bc8194c78393)
-    (property "Reference" "JP4" (at 50.8 185.42 0)
+    (property "Reference" "JP16" (at 50.8 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR2" (at 55.88 185.42 0)
@@ -4184,9 +4216,9 @@
     (pin "1" (uuid 038085fc-48a6-4009-9048-f2e160032b3c))
     (pin "2" (uuid b82577f0-9e28-421d-b08d-5042feb7dc0f))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "JP16") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP3") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4200,7 +4232,7 @@
   (symbol (lib_id "Device:C_Small") (at 152.4 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eaa2976-c191-4978-91f7-1f9a91f84a1d)
-    (property "Reference" "C23" (at 146.05 48.26 0)
+    (property "Reference" "C52" (at 146.05 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.05 50.8 0)
@@ -4215,9 +4247,9 @@
     (pin "1" (uuid 218840fa-60f7-488f-8a52-24073326498f))
     (pin "2" (uuid 28d9ade6-4f9b-4005-bfcb-87f5185f82f4))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C52") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C8") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4245,9 +4277,9 @@
     )
     (pin "1" (uuid 5e64eccd-5f20-439f-85c2-d8b4075f8138))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0911") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4261,7 +4293,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f8b09a8-8629-4e25-995f-10a67eeb6889)
-    (property "Reference" "JP1" (at 50.8 182.88 0)
+    (property "Reference" "JP15" (at 50.8 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR1" (at 55.88 182.88 0)
@@ -4279,9 +4311,9 @@
     (pin "1" (uuid 9e6f7b06-0f2d-458f-b96e-c043ce15fbfa))
     (pin "2" (uuid 0eae0acb-c318-459a-9180-1a13427d87c0))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "JP15") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4309,9 +4341,9 @@
     )
     (pin "1" (uuid e47cc3be-b218-4bb6-bc35-6d7705bfc5ef))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0910") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4339,9 +4371,9 @@
     )
     (pin "1" (uuid 29e8f77b-4ead-48d7-a60e-32e07eb4e4d3))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0937") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR021") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4369,9 +4401,9 @@
     )
     (pin "1" (uuid 4497399c-a20f-448c-8f30-ebd441957341))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#FLG0101") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#FLG01") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4402,9 +4434,9 @@
     )
     (pin "1" (uuid 4917f18b-d968-49ae-95e2-b1dd1c1b5345))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0908") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR04") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4415,10 +4447,41 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Small") (at 147.32 43.18 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8a384ddd-0f75-4bcb-8d7e-950ce45c881c)
+    (property "Reference" "R2" (at 146.05 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "1k" (at 148.59 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 147.32 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 147.32 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ffd278f7-74dc-4f58-9f78-d15009c5db97))
+    (pin "2" (uuid a707d37f-8044-4aea-8f0e-50e60a1ca003))
+    (instances
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "EuroMeasure-Generator"
+        (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MEMS_Discrete-semiconductor:LED_0805_Red") (at 236.22 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d422ced-f7ee-4855-96ba-ea2c0c8c88fd)
-    (property "Reference" "D6" (at 240.03 149.5425 90)
+    (property "Reference" "D1" (at 240.03 149.5425 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RED" (at 240.03 152.0825 90)
@@ -4439,9 +4502,9 @@
     (pin "1" (uuid accc9e0c-3a59-4f33-a775-c047c17ee618))
     (pin "2" (uuid 21c98c25-ecbf-4500-87b5-91a3d130702d))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "D1") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "D2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4508,8 +4571,8 @@
     (pin "D3" (uuid 812cfbd8-4eb3-4a94-b8f2-9aaa795aa6f3))
     (pin "D4" (uuid bfac2fd6-ebf2-4bb0-98d0-232b814f2766))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "B1") (unit 2)
         )
       )
@@ -4538,9 +4601,9 @@
     )
     (pin "1" (uuid 2a49831b-3c14-4311-9eb0-3db80f5071e2))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0918") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR011") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4554,7 +4617,7 @@
   (symbol (lib_id "MEMS_Passive:SolderableJumper") (at 36.83 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 924bfe37-bf48-4f78-ab3c-7498bd8b4942)
-    (property "Reference" "JP3" (at 50.8 180.34 0)
+    (property "Reference" "JP17" (at 50.8 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ADR0" (at 55.88 180.34 0)
@@ -4572,9 +4635,9 @@
     (pin "1" (uuid f592bf68-5cee-4a15-8339-a9e73cf997ab))
     (pin "2" (uuid b49b02d5-8053-4302-9aa6-6d2476b94994))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "JP17") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "JP1") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4588,7 +4651,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 925b638d-4fc4-41fe-929b-5b3cad1b7d93)
-    (property "Reference" "C21" (at 105.41 176.53 0)
+    (property "Reference" "C41" (at 105.41 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "8p" (at 105.41 179.0638 0)
@@ -4606,9 +4669,9 @@
     (pin "1" (uuid c84ef08b-7ac6-4a18-9e00-a5e02dc66c85))
     (pin "2" (uuid 48fecdc4-ae8e-4a83-b8da-b48a19bb7da1))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C41") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C6") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4636,9 +4699,9 @@
     )
     (pin "1" (uuid 802493ed-d7fd-43ce-98e8-9cfef2b62056))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0906") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR02") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4666,9 +4729,9 @@
     )
     (pin "1" (uuid 42490fa1-43f2-4646-96d7-49a7defb9347))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0921") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR014") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4696,9 +4759,9 @@
     )
     (pin "1" (uuid b59b2513-41da-4c07-a62e-b480f0abde1f))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0933") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR029") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4726,9 +4789,9 @@
     )
     (pin "1" (uuid 35675a3c-3940-4355-9132-c958137d0d6a))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0927") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR022") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4742,7 +4805,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 74.93 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0439643-fef3-40f9-9de0-391b0884df74)
-    (property "Reference" "TP11" (at 74.93 147.32 90)
+    (property "Reference" "TP6" (at 74.93 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 74.93 142.24 90)
@@ -4756,9 +4819,9 @@
     )
     (pin "1" (uuid eaee58f3-8a44-436b-983d-2b8cf53224f1))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "TP6") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP9") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4786,9 +4849,9 @@
     )
     (pin "1" (uuid 0963c81e-4c4f-4af4-8386-b25c15e0246e))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0934") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR030") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4855,8 +4918,8 @@
     (pin "D3" (uuid 183652f5-7b42-4f2d-84d5-688ab80311e4))
     (pin "D4" (uuid 0c7b1b10-155c-4f50-9211-5498da08f538))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "B1") (unit 1)
         )
       )
@@ -4885,9 +4948,9 @@
     )
     (pin "1" (uuid 7db46855-8156-434e-b9f9-c911260b1d8c))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#FLG0102") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#FLG02") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4904,7 +4967,7 @@
   (symbol (lib_id "MEMS_IC:STM32G030CxT") (at 191.77 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2b22ca3-6171-40c0-bda9-90109cb76b60)
-    (property "Reference" "U4" (at 193.7259 143.51 0)
+    (property "Reference" "U9" (at 193.7259 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G030CxT" (at 193.7259 146.05 0)
@@ -4971,9 +5034,9 @@
     (pin "8" (uuid 34762c0b-1ecf-4f5a-88a0-d0c99efbfe44))
     (pin "9" (uuid cc0fc1b4-d3ca-4929-a23b-0361c2bb22f0))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "U9") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "U2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -4987,7 +5050,7 @@
   (symbol (lib_id "Device:C_Small") (at 165.1 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c79b4cc6-7428-4f30-924d-bdfcda602b18)
-    (property "Reference" "C25" (at 167.64 142.2462 0)
+    (property "Reference" "C53" (at 167.64 142.2462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 167.64 144.7862 0)
@@ -5002,14 +5065,44 @@
     (pin "1" (uuid 1e031cbd-0a73-4892-9d8c-27a58675e67d))
     (pin "2" (uuid 7ef5c317-1ea0-47a2-b528-a3044853c569))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C53") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C9") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
         (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
           (reference "C56") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 152.4 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7eaa625-7f56-4db4-a5af-ac80c79403f4)
+    (property "Reference" "#PWR0932" (at 152.4 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 152.4 29.21 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 152.4 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 152.4 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d6fc91e8-9975-4b21-b6f6-28fc02dded00))
+    (instances
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "EuroMeasure-Generator"
+        (path "/c0f57af1-51e3-4b1b-8afb-67a4c2f2a5dd/5c32201f-9cee-4b13-85be-b08d669b436d"
+          (reference "#PWR0932") (unit 1)
         )
       )
     )
@@ -5032,9 +5125,9 @@
     )
     (pin "1" (uuid 67a2cc91-04b3-4aa7-aaaf-b2f317ecd5ef))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0922") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR015") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5062,9 +5155,9 @@
     )
     (pin "1" (uuid fc450a9e-1aed-4b05-9bd8-db1ef6d783e8))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0907") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR03") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5092,9 +5185,9 @@
     )
     (pin "1" (uuid d5ed88f1-3e62-447d-aa34-030e0cbc7599))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0920") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR013") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5122,9 +5215,9 @@
     )
     (pin "1" (uuid 13a23906-de6a-43b8-9127-4d98bf1fb830))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0919") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR012") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5138,7 +5231,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 69.85 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29ebdf1-83e6-47a0-89bb-b80f89f5d0d3)
-    (property "Reference" "TP13" (at 69.85 147.32 90)
+    (property "Reference" "TP10" (at 69.85 147.32 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "GND" (at 69.85 142.24 90)
@@ -5152,9 +5245,9 @@
     )
     (pin "1" (uuid 2cab6790-4220-4fda-a3ba-d12c9179c30e))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "TP10") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "TP7") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5182,9 +5275,9 @@
     )
     (pin "1" (uuid 99361af1-b112-44f6-b13f-4a1035d1474c))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "#PWR0929") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "#PWR025") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
@@ -5198,7 +5291,7 @@
   (symbol (lib_id "MEMS_Passive:L_Ferrite_742792040") (at 182.88 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f46954c8-8c27-458a-882f-79a8dc90e53d)
-    (property "Reference" "L3" (at 182.88 39.37 90)
+    (property "Reference" "L1" (at 182.88 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Ferrite" (at 182.88 41.91 90)
@@ -5219,8 +5312,8 @@
     (pin "1" (uuid 0826cbe8-ad3a-41a2-9f70-6d5886c11daa))
     (pin "2" (uuid 1ef24d8d-3427-48cc-804d-439d8a199e24))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
           (reference "L1") (unit 1)
         )
       )
@@ -5235,7 +5328,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 50.8 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f84296d0-2881-4d3a-8d1e-7e495ea261d6)
-    (property "Reference" "C12" (at 54.61 34.6709 0)
+    (property "Reference" "C25" (at 54.61 34.6709 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 54.61 37.2109 0)
@@ -5250,9 +5343,9 @@
     (pin "1" (uuid b26fcb90-083b-4bd5-98f1-a293754dd516))
     (pin "2" (uuid ba82f4c3-9930-4dbc-ad03-1e79cd4397be))
     (instances
-      (project "EuroMeasure-Voltmeter"
-        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/cf9a787d-b510-48e3-9c7a-dbcfde4d026d"
-          (reference "C25") (unit 1)
+      (project "EuroMeasure-Module"
+        (path "/9c84a828-ebcc-4f88-b5cc-11be4f5044ad/abf38db6-df21-42a4-a2d8-4fd7d247b99e"
+          (reference "C2") (unit 1)
         )
       )
       (project "EuroMeasure-Generator"
